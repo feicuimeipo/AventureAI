@@ -1,11 +1,18 @@
 import os
 
+from apscheduler.schedulers.background import BackgroundScheduler
 from flask import Flask
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 from app.config import EnvConfig
 from common.Logger import getLogger
 
+
+def init_scheduler():
+    pass
+    # scheduler = BackgroundScheduler()
+    # # 添加任务...
+    # scheduler.start()
 
 
 def init_swagger_ui(app):
@@ -67,6 +74,13 @@ def create_flask_app():
     getLogger(__name__)
     init_blueprint(app)
     init_swagger_ui(app)
-    CORS(app)
+
+    #默认允许所有域名
+    CORS(app, supports_credentials=True,
+         origins=["https://example.com", "https://api.example.com","http://api.example.com"],
+         methods=["GET", "POST"],
+         allow_headers=["Content-Type", "X-Token", "Authorization"],
+         expose_headers=["X-Total-Count", "X-Page-Number"])
+    init_scheduler()
 
     return app

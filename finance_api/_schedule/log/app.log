@@ -118,3 +118,8 @@
 启动失败。[0m
 [32m2026-05-20 18:23:07 - [INFO] - myApp:start_flower.py:44- 正在启动 flower...: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app flower --address=0.0.0.0 --port=5555[0m
 [32m2026-05-20 18:23:07 - [INFO] - myApp:start_flower.py:45- 工作目录: D:\er-yan\AventureAI\finance_api[0m
+[32m2026-05-20 18:23:36 - [INFO] - myApp:PlatformUserStatDao.py:32- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001EB1AB97070> records.[0m
+[32m2026-05-20 18:23:37 - [INFO] - myApp:PlatformUserStatDao.py:32- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001EB1AC4A3C0> records.[0m
+[32m2026-05-20 18:23:38 - [INFO] - myApp:PlatformUserStatDao.py:32- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001EB1ADE4550> records.[0m
+[32m2026-05-20 18:23:39 - [INFO] - myApp:PlatformUserStatDao.py:32- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001EB1AC7A9E0> records.[0m
+[32m2026-05-20 18:23:39 - [INFO] - myApp:task_user_profile.py:21- milvus同步开始![0m

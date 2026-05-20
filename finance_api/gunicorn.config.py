@@ -4,12 +4,12 @@ debug = True
 bind = "0.0.0.0:5000"
 # 工作进程数
 workers = 5
-worker-connections = 1000
-worker-class = 'gevent'
+worker_connections = 1000
+worker_class = 'gevent'
 # 工作线程数
-threads = 5
+# threads = 5
 # 超时时间
-timeout = 600
+timeout = 30
 # 输出日志级别
 loglevel = 'debug'
 # 存放日志路径
