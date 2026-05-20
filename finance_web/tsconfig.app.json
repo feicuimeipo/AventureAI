@@ -7,13 +7,10 @@
       "@/*": ["src/*"]
     },
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "types": ["vite/client", "tailwindcss/types", "bootstrap"],
+    "types": ["vite/client"],
     "typeRoots": ["./node_module/@type", "src/types"],
-    //    保留JSX结构不进行编译
     "jsx": "preserve",
-    //    指定创建虚拟DOM的函数名
     "jsxFactory": "h",
-    //    "Fragment"：指定片段组件类型
     "jsxFragmentFactory": "Fragment",
 
     /* Linting */

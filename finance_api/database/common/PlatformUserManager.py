@@ -118,7 +118,7 @@ def calcTokenForRegister(user_id, completeness: int):
     return amount
 
 
-async def calcAwardTokenByRule(userId, action):
+def calcAwardTokenByRule(userId, action):
     userDao = PlatformUserDao
     if action == AwardTokenRuleEnum.ProfileCompleteness.name:
         return
