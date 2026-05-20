@@ -126,17 +126,17 @@ def verifyAccessToken(req) -> str | None:
 def authTokenLogout(req):
     token = getAccessTokenFromRequest(req)
     redis = RedisClient()
-    if token and redis:
+    if token:
         try:
             decoded = jwt.decode(token, EnvConfig.JWT_SECRET_KEY, algorithms=[Algorithm], options={"verify_exp": False})
-            # jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM], options={"verify_exp": False})
             exp_timestamp = decoded.get('exp')
             if exp_timestamp:
-                ttl = exp_timestamp - int(datetime.datetime.now('UTC').timestamp())
+                ttl = exp_timestamp - datetime.datetime.now(datetime.UTC).timestamp()
                 if ttl > 0:
                     redis.setex(f"blacklist:{token}", "revoked", ttl)
         except Exception as e:
-            logger.error(e, exc_info=True)
+            logger.error(f"{str(e)}")
             return ResponseDTO().error(e.args[0]).toJson()
     return ResponseDTO().ok().setMessage("登出成功").toJson()
+
 

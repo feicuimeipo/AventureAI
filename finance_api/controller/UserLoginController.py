@@ -58,22 +58,15 @@ def loginByPassword():
 
 @userLogin.get("/doLogout")
 def doLogout():
-    """
-    用户登出接口
-    将当前Token加入Redis黑名单，使其立即失效
-    """
     try:
         uid = AuthToken.verifyAccessToken(request)
-        res = AuthToken.authTokenLogout(request)
-        if res.getCode() == 0:
-            redis = RedisClient()
-            key = RedisKey.REDIS_KEY_USER_DETAIL % res.uid
-            redis.delete(key)
-        return res
+        if not uid:
+            return ResponseDTO().error('用户已退出').toJson()
+        else:
+            return AuthToken.authTokenLogout(request)
     except Exception as e:
-        logger.error(e, exc_info=True)
+        logger.error(e)
         return ResponseDTO().error('用户已退出').toJson()
-
 
 
 @userLogin.post("/loginByPhoneCode/send_code")

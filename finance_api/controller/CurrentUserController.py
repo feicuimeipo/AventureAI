@@ -114,8 +114,8 @@ def updateUserLastActivity():
             if userId:
                 duration = data["duration"]
                 timestamp = data["lastActiveTime"]
-                duration = min((int(duration) / 1000), 60) if duration else 0
-                UserStatManager.calculate_activity_duration(userId,int(round(duration)))
+                duration = min((duration / 1000), 60) if duration else 0
+                UserStatManager.calculate_activity_duration(userId,int(duration))
                 UserStatManager.calculate_last_activity_time(userId,timestamp)
                 UserStatManager.calculate_user_browse_count(userId)
                 UserStatManager.calculate_daily_login_count(userId)

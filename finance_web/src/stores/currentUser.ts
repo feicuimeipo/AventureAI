@@ -98,17 +98,11 @@ export const useCurrentUserStore = defineStore('currentUser', () => {
 
   const logout  =  async()=>  {
     doLogout()
-      .then((res: any) => {
-        if (res.code === 0) {
-          cleanAuthToken();
-          console.info('登出成功!');
-          const router = useRouter();
-          router.push('/');
-        } else {
-          MessageBox.Error(res.message);
-          console.log(res.message);
-          return Promise.reject(new Error(res.message || 'Error'));
-        }
+      .then(() => {
+        cleanAuthToken();
+        console.info('登出成功!');
+        const router = useRouter();
+        router.push('/');
       })
       .catch((err: any) => {
         console.log(err.message);

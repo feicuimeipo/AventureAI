@@ -1,8 +1,10 @@
+from gevent import monkey
+monkey.patch_all()
+# monkey.patch_all(ssl=False)  # 不对 ssl 进行补丁
+
 # 导入flask
 import os
-
 from flask import request, abort
-
 from _schedule import init_task
 from _schedule.celery_app import make_celery
 from app import settings
@@ -13,6 +15,7 @@ from common import AuthToken
 from common.Logger import getLogger
 
 # 具体的代码如下：
+
 
 # 配置模板，静态资源及静态的上下文路径
 app = create_flask_app()
@@ -79,7 +82,7 @@ def setContext():
 if __name__ == '__main__':
     # flask启动
     print(EnvConfig.LOG_LEVEL)
-    logger.debug("开始启动....")
+    logger.info("开始启动....")
     app.run(host="0.0.0.0",port=EnvConfig.app_port)
     # 2.初始化服务器
     # WSGIServer(("127.0.0.1", 5000), app).serve_forever()

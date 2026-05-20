@@ -35,8 +35,8 @@ def make_celery(flask_app:Flask=None):
     # 1. 创建 Celery 实例
     celery = Celery(
         EnvConfig.APP_NAME,  # 推荐使用 app.import_name，便于定位任务
-        broker= EnvConfig.CELERY_BROKER_URL+"?max_connections=10&socket_connect_timeout=12&socket_timeout=20&socket_keepalive=300",
-        backend = EnvConfig.CELERY_RESULT_BACKEND+"?max_connections=10&socket_connect_timeout=12&socket_timeout=20&socket_keepalive=300",
+        broker= EnvConfig.CELERY_BROKER_URL,
+        backend = EnvConfig.CELERY_RESULT_BACKEND,
     )
 
     # 2. 更新配置
@@ -58,24 +58,28 @@ def make_celery(flask_app:Flask=None):
         result_expires=3600,  # 结果过期时间，单位秒
     )
 
-    # 对于 Celery 5.x，使用以下配置
-    # celery.conf.broker_connection_retry_on_startup = True
-
+    celery.broker_pool_limit = 10
+    # celery.conf.worker_pool = asyncio  # 关键配置：启用 asyncio 池
     celery.conf.broker_transport_options = {
-        "max_retries": 3,
-        "interval_start": 0.2,
-        "interval_step": 0.2,
-        "interval_max": 0.2,
-        "socket_connect_timeout": 10,
-        "socket_timeout": 20,
+        'max_connections': 20,
+        'socket_connect_timeout': 36,
+        'socket_timeout': 60,
+        'socket_keepalive': True,  # socket_keepalive 通常是一个布尔值，具体行为取决于驱动
+        'retry_policy': {
+            'max_retries': 3,
+            'interval_start': 0,
+            'interval_step': 0.2,
+            'interval_max': 0.5,
+        }
     }
 
     celery.conf.backend_transport_options = {
-        "socket_connect_timeout": 10,
-        "socket_timeout": 20,
+        'max_connections': 10,
+        'socket_connect_timeout': 36,
+        'socket_timeout': 60,
+        'socket_keepalive': True,
     }
 
-    celery.conf.worker_pool = asyncio # 关键配置：启用 asyncio 池
 
     # # 定义定时任务调度表
     celery.conf.beat_schedule = {
@@ -95,7 +99,7 @@ def make_celery(flask_app:Flask=None):
         'record_user_stat': {
             'task': 'transform_user_profile_into_milvus',
             #'schedule': 3600.0,
-            'schedule': crontab(hour=1),
+            'schedule': crontab(hour=2),
              #'schedule': crontab(hour=2),
             'args': ()
         }

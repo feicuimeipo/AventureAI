@@ -44,6 +44,7 @@ python -m celery -A MyApp worker \
         # 构建命令: 移除 -P gevent，使用默认的多进程模型，稳定性更高，兼容性好
         CELERY_BIN = os.path.join(os.path.dirname(sys.executable), 'celery.exe')
         CMD = [CELERY_BIN, "-A", "_schedule.celery_app:celery_app", "worker", "-l", "info", "-P", "gevent","--concurrency=4","--hostname=192.168.1.6"]
+        # CMD = [CELERY_BIN, "-A", "_schedule.celery_app:celery_app", "worker", "-l", "info", "-P", "prefork", "--concurrency=4", "--hostname=192.168.1.6"]
         PROJECT_ROOT = get_project_root('finance_api')
         logger.info(f"正在启动 Celery Worker...: {' '.join(CMD)}")
         logger.info(f"工作目录: {PROJECT_ROOT}")
