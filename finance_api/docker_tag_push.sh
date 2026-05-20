@@ -1,0 +1,2 @@
+docker tag your_flask_app your_dockerhub_username/your_flask_app:latest
+docker push your_dockerhub_username/your_flask_app:latest

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jinja2参数传递，for循环，if判断</title>
+</head>
+<body>
+    <div>{{session.get("username")}}, 欢迎</div>
+    <div>模块上下文-字典: {{templateCtx.title}}</div>
+    <div>模块上下文: {{templateCtxFunc(4,5)}}</div>
+    <div>全局上下文：{{ctx.title}}</div>
+    <div>全局函数：{{globalFunc(1,2)}}</div>
+    <div>标题：{{article.title}}</div>
+    <div>点击数：{{article.count}}</div>
+    <!--注释语法-->
+    {# 这是模板jinja2的注释 #}
+    <!--判断语法-->
+    {% if article.count % 2 == 0 %}
+        <div>您的阅读量可以被2整数！是一个偶数</div>
+    {% else %}
+        <div>您的阅读量是一个不能被2整数，是一个奇烽</div>
+    {% endif %}
+    <!--for循环语法-->
+    {# 声明变量，数值类型只能是int, 不能是float; 且不能用int等python函数，但可以用过滤器 |+函数名 来转换类型 #}
+    {% set loopCount = (article.count/100) | int %}
+    {%for i in range(loopCount) %}
+        <div>当前计数为{{i+1}}</div>
+    {% endfor %}
+    <!--最常用的过泫雅，没有过滤器时html会被展示-->
+    <div>{{article.content}}</div>
+    <!--最常用的过泫雅: 解析内容中包括的html-->
+    <div>{{article.content | safe}}</div>
+    <div>{{"hello World" | title}}</div> <!--首字符大写-->
+    <div>{{"hello World" | upper}}</div> <!--所有字母变成大写-->
+    <div>{{"hello World" | lower}}</div> <!--所有字母变成小写-->
+    <!--自定义过滤器-->
+    <div>自定义自增1的过滤器：{{1 | increment}}</div>
+    <!--过滤器可以叠加使用-->
+    <div>{{"hello World" | upper | lower}}</div> <!--所有字母变成大写,再变小-->
+    <p/>
+
+</body>
+</html>

@@ -1,0 +1,887 @@
+[32m2026-05-19 00:00:48 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:00:48 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:00:48 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:01:43 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:01:43 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:01:43 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:04:22 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:04:22 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:04:22 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:04:30 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:04:30 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:04:30 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:06:30 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:06:30 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:06:30 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[31m2026-05-19 00:06:51 - [ERROR] - myApp:start_celery.py:33- 
+Worker 已停止。[0m
+[32m2026-05-19 00:07:48 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:07:48 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:07:48 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[31m2026-05-19 00:08:02 - [ERROR] - myApp:start_celery.py:33- 
+Worker 已停止。[0m
+[32m2026-05-19 00:08:06 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:08:06 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:08:06 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[31m2026-05-19 00:15:17 - [ERROR] - myApp:start_celery.py:33- 
+Worker 已停止。[0m
+[32m2026-05-19 00:15:36 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:15:36 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:15:36 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:16:38 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:16:38 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:16:38 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:19:55 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:19:55 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:19:55 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:25:04 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:25:04 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:25:04 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:38:40 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:38:40 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:38:40 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:45:21 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:45:21 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:45:21 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:45:41 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:45:42 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:45:42 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:46:00 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:46:00 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:46:00 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:51:13 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:51:13 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:51:13 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:57:11 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:57:11 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:57:11 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:58:07 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:58:07 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:58:07 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 00:58:59 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 00:58:59 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 00:58:59 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:00:44 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:00:44 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:00:44 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:02:44 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:02:44 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:02:44 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:04:16 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:04:16 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:04:16 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:07:00 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:07:00 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:07:00 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:08:07 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:08:07 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:08:07 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:09:18 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:09:18 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:09:18 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:14:54 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:14:54 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:14:54 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:17:48 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:17:48 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:17:48 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:18:25 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:18:25 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:18:25 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:18:39 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:18:39 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:18:39 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:19:19 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:19:19 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:19:19 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:22:53 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:22:53 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:22:53 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:23:11 - [INFO] - myApp:task_user_profile.py:17- milvus同步开始![0m
+[32m2026-05-19 01:24:25 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 01:24:25 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 01:24:25 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 01:24:45 - [INFO] - myApp:task_user_profile.py:18- milvus同步开始![0m
+[32m2026-05-19 13:00:51 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:00:51 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:00:51 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:11:56 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:11:56 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:11:56 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:38:26 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:38:26 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:38:26 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:42:29 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:42:29 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:42:29 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:52:54 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:52:54 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:52:54 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:56:05 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:56:05 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:56:05 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 13:59:49 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 13:59:49 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 13:59:49 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 14:00:33 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 14:00:34 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 14:00:34 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[31m2026-05-19 14:00:56 - [ERROR] - myApp:start_celery.py:33- 
+Worker 已停止。[0m
+[32m2026-05-19 14:04:46 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 14:04:46 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 14:04:46 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 14:05:09 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 14:05:09 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 14:05:09 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 14:23:01 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 14:23:01 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 14:23:01 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 14:33:28 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 14:33:28 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 14:33:28 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 15:44:37 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 15:44:37 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 15:44:37 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_task.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 15:45:09 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 15:45:09 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 15:45:09 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_task.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 15:45:44 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 15:45:44 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 15:45:44 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_task.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 15:51:24 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 15:51:24 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 15:51:24 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery_task.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:00:27 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:00:27 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:00:27 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:00:33 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:00:33 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:00:33 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:00:58 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:00:58 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:00:58 - [INFO] - myApp:start_celery.py:22- 命令: celery -A celery.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:02:01 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:02:01 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:02:01 - [INFO] - myApp:start_celery.py:22- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:02:25 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:02:26 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:02:26 - [INFO] - myApp:start_celery.py:22- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:02:44 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:02:44 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:02:44 - [INFO] - myApp:start_celery.py:22- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:05:02 - [INFO] - myApp:start_celery.py:14- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:05:02 - [INFO] - myApp:start_celery.py:21- 启动 Celery Worker...[0m
+[32m2026-05-19 16:05:02 - [INFO] - myApp:start_celery.py:22- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:06:37 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:06:37 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:06:37 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:07:09 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:07:09 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:07:09 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:10:00 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:10:00 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:10:00 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:10:24 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:10:24 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:10:24 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:10:46 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:10:46 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:10:46 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 16:11:01 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 16:11:01 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 16:11:01 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 17:56:47 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 17:56:47 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 17:56:47 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:02:42 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:02:42 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:02:42 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:03:00 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:03:00 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:03:00 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:03:20 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:03:20 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:03:20 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:03:30 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:03:30 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:03:30 - [INFO] - myApp:start_celery.py:19- 命令: celery_app -A celery_app.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:04:22 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:04:22 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:04:22 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:04:43 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:04:43 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:04:43 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:05:09 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:05:09 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:05:09 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:05:35 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:05:35 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:05:35 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:05:49 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:05:49 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:05:49 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:06:32 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:06:32 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:06:32 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:07:26 - [INFO] - myApp:start_celery.py:11- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:07:26 - [INFO] - myApp:start_celery.py:18- 启动 Celery Worker...[0m
+[32m2026-05-19 18:07:26 - [INFO] - myApp:start_celery.py:19- 命令: _schedule -A _schedule._schedule:_schedule worker -l info -P gevent[0m
+[32m2026-05-19 18:19:17 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:19:17 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:19:17 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:19:17 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\Scripts\celery.exe -A _schedule.celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:19:17 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:19:34 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:19:34 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:19:34 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:19:34 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\Scripts\celery.exe -A _schedule.celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:19:34 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:20:03 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:20:03 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:20:03 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:20:03 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\Scripts\celery.exe -A _schedule.celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:20:03 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:21:28 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:21:28 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:21:28 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:21:28 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:21:28 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:22:15 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:22:15 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:22:15 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:22:15 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:22:15 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:22:53 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:22:53 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:22:53 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:22:53 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:22:53 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:24:46 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:24:46 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:24:46 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:24:46 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:24:46 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:25:47 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:25:47 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:25:47 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:25:47 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:25:47 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:30:33 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:30:33 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:30:33 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:30:33 - [INFO] - myApp:start_celery.py:35- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent -c 1000[0m
+[32m2026-05-19 18:30:33 - [INFO] - myApp:start_celery.py:36- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 18:35:23 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 18:35:23 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 18:35:23 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 18:35:23 - [INFO] - myApp:start_celery.py:34- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 18:35:23 - [INFO] - myApp:start_celery.py:35- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 18:56:33 - [ERROR] - myApp:task_user_profile.py:128- name 'datetime' is not defined[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m119[0m, in [35mrecord_user_stat[0m
+    'last_active_time': [1;31mdatetime[0m.datetime.fromtimestamp(lastActiveTime),
+                        [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'datetime' is not defined. Did you forget to import 'datetime'?[0m
+[31m2026-05-19 18:56:34 - [ERROR] - myApp:task_user_profile.py:128- name 'datetime' is not defined[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m119[0m, in [35mrecord_user_stat[0m
+    'last_active_time': [1;31mdatetime[0m.datetime.fromtimestamp(lastActiveTime),
+                        [1;31m^^^^^^^^[0m
+[1;35mNameError[0m: [35mname 'datetime' is not defined. Did you forget to import 'datetime'?[0m
+[31m2026-05-19 19:01:01 - [ERROR] - myApp:task_user_profile.py:129- argument must be int or float, not str[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m115[0m, in [35mrecord_user_stat[0m
+    myDate = datetime.fromtimestamp(lastActiveTime)
+[1;35mTypeError[0m: [35margument must be int or float, not str[0m
+[31m2026-05-19 19:08:20 - [ERROR] - myApp:task_user_profile.py:129- argument must be int or float, not str[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m115[0m, in [35mrecord_user_stat[0m
+    myDate = datetime.fromtimestamp(lastActiveTime)
+[1;35mTypeError[0m: [35margument must be int or float, not str[0m
+[31m2026-05-19 19:08:36 - [ERROR] - myApp:task_user_profile.py:129- argument must be int or float, not NoneType[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m115[0m, in [35mrecord_user_stat[0m
+    myDate = datetime.fromtimestamp(lastActiveTime)
+[1;35mTypeError[0m: [35margument must be int or float, not NoneType[0m
+[31m2026-05-19 19:31:23 - [ERROR] - myApp:task_user_profile.py:130- unsupported operand type(s) for /: 'str' and 'int'[0m
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m115[0m, in [35mrecord_user_stat[0m
+    dt = datetime.fromtimestamp([31mlastActiveTime[0m[1;31m/[0m[31m1000[0m) if lastActiveTime else None
+                                [31m~~~~~~~~~~~~~~[0m[1;31m^[0m[31m~~~~[0m
+[1;35mTypeError[0m: [35munsupported operand type(s) for /: 'str' and 'int'[0m
+[31m2026-05-19 19:32:25 - [ERROR] - myApp:task_user_profile.py:135- (psycopg2.errors.InvalidColumnReference) there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s) ON CONFLICT (user_id, create_at) DO UPDATE SET login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), create_at = CURRENT_DATE]
+[parameters: {'user_id_m0': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m0': 0, 'browse_count_m0': None, 'message_count_m0': None, 'last_active_time_m0': None, 'daily_duration_m0': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)[0m
+Traceback (most recent call last):
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mpsycopg2.errors.InvalidColumnReference[0m: [35mthere is no unique or exclusion constraint matching the ON CONFLICT specification
+[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m132[0m, in [35mrecord_user_stat[0m
+    [31muserStateDao.bulkInsertActivity[0m[1;31m(data_list)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"D:\er-yan\finance_api\database\dao\PlatformUserStatDao.py"[0m, line [35m29[0m, in [35mbulkInsertActivity[0m
+    user_data = session.execute(stmt) # 或 stmt_do_nothing
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2351[0m, in [35mexecute[0m
+    return [31mself._execute_internal[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstatement,[0m
+        [1;31m^^^^^^^^^^[0m
+    ...<4 lines>...
+        [1;31m_add_event=_add_event,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2249[0m, in [35m_execute_internal[0m
+    result: Result[Any] = [31mcompile_state_cls.orm_execute_statement[0m[1;31m([0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself,[0m
+        [1;31m^^^^^[0m
+    ...<4 lines>...
+        [1;31mconn,[0m
+        [1;31m^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\bulk_persistence.py"[0m, line [35m1306[0m, in [35morm_execute_statement[0m
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1419[0m, in [35mexecute[0m
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\sql\elements.py"[0m, line [35m527[0m, in [35m_execute_on_connection[0m
+    return [31mconnection._execute_clauseelement[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself, distilled_params, execution_options[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1641[0m, in [35m_execute_clauseelement[0m
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1846[0m, in [35m_execute_context[0m
+    return [31mself._exec_single_context[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mdialect, context, statement, parameters[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1986[0m, in [35m_exec_single_context[0m
+    [31mself._handle_dbapi_exception[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31me, str_statement, effective_parameters, cursor, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m2363[0m, in [35m_handle_dbapi_exception[0m
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35msqlalchemy.exc.ProgrammingError[0m: [35m(psycopg2.errors.InvalidColumnReference) there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s) ON CONFLICT (user_id, create_at) DO UPDATE SET login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), create_at = CURRENT_DATE]
+[parameters: {'user_id_m0': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m0': 0, 'browse_count_m0': None, 'message_count_m0': None, 'last_active_time_m0': None, 'daily_duration_m0': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)[0m
+[31m2026-05-19 19:41:14 - [ERROR] - myApp:task_user_profile.py:130- Timeout reading from socket[0m
+Traceback (most recent call last):
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\_parsers\socket.py"[0m, line [35m65[0m, in [35m_read_from_socket[0m
+    data = sock.recv(socket_read_size)
+[1;35mTimeoutError[0m: [35m[WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。[0m
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m98[0m, in [35mrecord_user_stat[0m
+    dailyDuration = redisClient.hget(userBehaviorKey,during_field)
+  File [35m"D:\er-yan\finance_api\common\Redis.py"[0m, line [35m166[0m, in [35mhget[0m
+    return [31mself.r.hget[0m[1;31m(name, key)[0m
+           [31m~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\commands\core.py"[0m, line [35m5538[0m, in [35mhget[0m
+    return [31mself.execute_command[0m[1;31m("HGET", name, key, keys=[name])[0m
+           [31m~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\client.py"[0m, line [35m716[0m, in [35mexecute_command[0m
+    return [31mself._execute_command[0m[1;31m(*args, **options)[0m
+           [31m~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\client.py"[0m, line [35m736[0m, in [35m_execute_command[0m
+    result = conn.retry.call_with_retry(
+        lambda: self._send_command_parse_response(
+    ...<3 lines>...
+        with_failure_count=True,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\retry.py"[0m, line [35m132[0m, in [35mcall_with_retry[0m
+    raise error
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\retry.py"[0m, line [35m120[0m, in [35mcall_with_retry[0m
+    return do()
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\client.py"[0m, line [35m737[0m, in [35m<lambda>[0m
+    lambda: [31mself._send_command_parse_response[0m[1;31m([0m
+            [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mconn, command_name, *args, **options[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m,
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\client.py"[0m, line [35m682[0m, in [35m_send_command_parse_response[0m
+    return [31mself.parse_response[0m[1;31m(conn, command_name, **options)[0m
+           [31m~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\client.py"[0m, line [35m780[0m, in [35mparse_response[0m
+    response = connection.read_response()
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\connection.py"[0m, line [35m1342[0m, in [35mread_response[0m
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\_parsers\resp2.py"[0m, line [35m15[0m, in [35mread_response[0m
+    result = self._read_response(disable_decoding=disable_decoding)
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\_parsers\resp2.py"[0m, line [35m25[0m, in [35m_read_response[0m
+    raw = self._buffer.readline()
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\_parsers\socket.py"[0m, line [35m115[0m, in [35mreadline[0m
+    [31mself._read_from_socket[0m[1;31m()[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\redis\_parsers\socket.py"[0m, line [35m78[0m, in [35m_read_from_socket[0m
+    raise TimeoutError("Timeout reading from socket")
+[1;35mredis.exceptions.TimeoutError[0m: [35mTimeout reading from socket[0m
+[31m2026-05-19 19:46:46 - [ERROR] - myApp:task_user_profile.py:136- (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id, create_at) DO UPDATE SET login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), create_at = CURRENT_DATE]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '23', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 12, 56, 724000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)[0m
+Traceback (most recent call last):
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mpsycopg2.errors.UniqueViolation[0m: [35mduplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m133[0m, in [35mrecord_user_stat[0m
+    [31muserStateDao.bulkInsertActivity[0m[1;31m(data_list)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"D:\er-yan\finance_api\database\dao\PlatformUserStatDao.py"[0m, line [35m29[0m, in [35mbulkInsertActivity[0m
+    user_data = session.execute(stmt) # 或 stmt_do_nothing
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2351[0m, in [35mexecute[0m
+    return [31mself._execute_internal[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstatement,[0m
+        [1;31m^^^^^^^^^^[0m
+    ...<4 lines>...
+        [1;31m_add_event=_add_event,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2249[0m, in [35m_execute_internal[0m
+    result: Result[Any] = [31mcompile_state_cls.orm_execute_statement[0m[1;31m([0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself,[0m
+        [1;31m^^^^^[0m
+    ...<4 lines>...
+        [1;31mconn,[0m
+        [1;31m^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\bulk_persistence.py"[0m, line [35m1306[0m, in [35morm_execute_statement[0m
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1419[0m, in [35mexecute[0m
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\sql\elements.py"[0m, line [35m527[0m, in [35m_execute_on_connection[0m
+    return [31mconnection._execute_clauseelement[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself, distilled_params, execution_options[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1641[0m, in [35m_execute_clauseelement[0m
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1846[0m, in [35m_execute_context[0m
+    return [31mself._exec_single_context[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mdialect, context, statement, parameters[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1986[0m, in [35m_exec_single_context[0m
+    [31mself._handle_dbapi_exception[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31me, str_statement, effective_parameters, cursor, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m2363[0m, in [35m_handle_dbapi_exception[0m
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35msqlalchemy.exc.IntegrityError[0m: [35m(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id, create_at) DO UPDATE SET login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), create_at = CURRENT_DATE]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '23', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 12, 56, 724000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)[0m
+[31m2026-05-19 19:53:17 - [ERROR] - myApp:task_user_profile.py:136- (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id, create_at) DO UPDATE SET user_id = excluded.user_id, login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), update_at = now(), create_at = coalesce(platform_user_stat.create_at, CURRENT_DATE)]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '24', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 49, 38, 573000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)[0m
+Traceback (most recent call last):
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mpsycopg2.errors.UniqueViolation[0m: [35mduplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m133[0m, in [35mrecord_user_stat[0m
+    [31muserStateDao.bulkInsertActivity[0m[1;31m(data_list)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"D:\er-yan\finance_api\database\dao\PlatformUserStatDao.py"[0m, line [35m31[0m, in [35mbulkInsertActivity[0m
+    user_data = session.execute(stmt) # 或 stmt_do_nothing
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2351[0m, in [35mexecute[0m
+    return [31mself._execute_internal[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstatement,[0m
+        [1;31m^^^^^^^^^^[0m
+    ...<4 lines>...
+        [1;31m_add_event=_add_event,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2249[0m, in [35m_execute_internal[0m
+    result: Result[Any] = [31mcompile_state_cls.orm_execute_statement[0m[1;31m([0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself,[0m
+        [1;31m^^^^^[0m
+    ...<4 lines>...
+        [1;31mconn,[0m
+        [1;31m^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\bulk_persistence.py"[0m, line [35m1306[0m, in [35morm_execute_statement[0m
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1419[0m, in [35mexecute[0m
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\sql\elements.py"[0m, line [35m527[0m, in [35m_execute_on_connection[0m
+    return [31mconnection._execute_clauseelement[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself, distilled_params, execution_options[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1641[0m, in [35m_execute_clauseelement[0m
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1846[0m, in [35m_execute_context[0m
+    return [31mself._exec_single_context[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mdialect, context, statement, parameters[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1986[0m, in [35m_exec_single_context[0m
+    [31mself._handle_dbapi_exception[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31me, str_statement, effective_parameters, cursor, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m2363[0m, in [35m_handle_dbapi_exception[0m
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35msqlalchemy.exc.IntegrityError[0m: [35m(psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "platform_user_stat_pkey"
+DETAIL:  Key (user_id)=(d69a02f3-a378-4e0b-ae3f-733c09faaa2b) already exists.
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id, create_at) DO UPDATE SET user_id = excluded.user_id, login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), update_at = now(), create_at = coalesce(platform_user_stat.create_at, CURRENT_DATE)]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '24', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 49, 38, 573000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)[0m
+[32m2026-05-19 19:55:23 - [INFO] - myApp:PlatformUserStatDao.py:32- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001CF9A165230> records.[0m
+[32m2026-05-19 19:59:59 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001F28BAD9D30> records.[0m
+[31m2026-05-19 20:02:13 - [ERROR] - myApp:task_user_profile.py:136- (psycopg2.errors.UndefinedColumn) column "user_id_create_at_unique" does not exist
+LINE 1: ...::uuid::UUID, 0, NULL, NULL, NULL, 0) ON CONFLICT (user_id_c...
+                                                             ^
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id_create_at_unique) DO UPDATE SET user_id = excluded.user_id, login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), update_at = now(), create_at = coalesce(CAST(platform_user_stat.create_at AS DATE), CURRENT_DATE)]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '24', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 49, 38, 573000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)[0m
+Traceback (most recent call last):
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35mpsycopg2.errors.UndefinedColumn[0m: [35mcolumn "user_id_create_at_unique" does not exist
+LINE 1: ...::uuid::UUID, 0, NULL, NULL, NULL, 0) ON CONFLICT (user_id_c...
+                                                             ^
+[0m
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File [35m"D:\er-yan\finance_api\_schedule\task_user_profile.py"[0m, line [35m133[0m, in [35mrecord_user_stat[0m
+    [31muserStateDao.bulkInsertActivity[0m[1;31m(data_list)[0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^[0m
+  File [35m"D:\er-yan\finance_api\database\dao\PlatformUserStatDao.py"[0m, line [35m33[0m, in [35mbulkInsertActivity[0m
+    user_data = session.execute(stmt) # 或 stmt_do_nothing
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2351[0m, in [35mexecute[0m
+    return [31mself._execute_internal[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mstatement,[0m
+        [1;31m^^^^^^^^^^[0m
+    ...<4 lines>...
+        [1;31m_add_event=_add_event,[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\session.py"[0m, line [35m2249[0m, in [35m_execute_internal[0m
+    result: Result[Any] = [31mcompile_state_cls.orm_execute_statement[0m[1;31m([0m
+                          [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself,[0m
+        [1;31m^^^^^[0m
+    ...<4 lines>...
+        [1;31mconn,[0m
+        [1;31m^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\orm\bulk_persistence.py"[0m, line [35m1306[0m, in [35morm_execute_statement[0m
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1419[0m, in [35mexecute[0m
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\sql\elements.py"[0m, line [35m527[0m, in [35m_execute_on_connection[0m
+    return [31mconnection._execute_clauseelement[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mself, distilled_params, execution_options[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1641[0m, in [35m_execute_clauseelement[0m
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1846[0m, in [35m_execute_context[0m
+    return [31mself._exec_single_context[0m[1;31m([0m
+           [31m~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mdialect, context, statement, parameters[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1986[0m, in [35m_exec_single_context[0m
+    [31mself._handle_dbapi_exception[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31me, str_statement, effective_parameters, cursor, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m2363[0m, in [35m_handle_dbapi_exception[0m
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\base.py"[0m, line [35m1967[0m, in [35m_exec_single_context[0m
+    [31mself.dialect.do_execute[0m[1;31m([0m
+    [31m~~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^[0m
+        [1;31mcursor, str_statement, effective_parameters, context[0m
+        [1;31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+    [1;31m)[0m
+    [1;31m^[0m
+  File [35m"D:\workspace\python\flask_project\.venv\Lib\site-packages\sqlalchemy\engine\default.py"[0m, line [35m952[0m, in [35mdo_execute[0m
+    [31mcursor.execute[0m[1;31m(statement, parameters)[0m
+    [31m~~~~~~~~~~~~~~[0m[1;31m^^^^^^^^^^^^^^^^^^^^^^^[0m
+[1;35msqlalchemy.exc.ProgrammingError[0m: [35m(psycopg2.errors.UndefinedColumn) column "user_id_create_at_unique" does not exist
+LINE 1: ...::uuid::UUID, 0, NULL, NULL, NULL, 0) ON CONFLICT (user_id_c...
+                                                             ^
+
+[SQL: INSERT INTO platform_user_stat (user_id, login_count_7days, browse_count, message_count, last_active_time, daily_duration) VALUES (%(user_id_m0)s::UUID, %(login_count_7days_m0)s, %(browse_count_m0)s, %(message_count_m0)s, %(last_active_time_m0)s, %(daily_duration_m0)s), (%(user_id_m1)s::UUID, %(login_count_7days_m1)s, %(browse_count_m1)s, %(message_count_m1)s, %(last_active_time_m1)s, %(daily_duration_m1)s) ON CONFLICT (user_id_create_at_unique) DO UPDATE SET user_id = excluded.user_id, login_count_7days = coalesce(excluded.login_count_7days, platform_user_stat.login_count_7days), browse_count = coalesce(excluded.browse_count, platform_user_stat.browse_count), message_count = coalesce(excluded.message_count, platform_user_stat.message_count), last_active_time = coalesce(excluded.last_active_time, platform_user_stat.last_active_time), daily_duration = coalesce(platform_user_stat.daily_duration + excluded.daily_duration, platform_user_stat.daily_duration), update_at = now(), create_at = coalesce(CAST(platform_user_stat.create_at AS DATE), CURRENT_DATE)]
+[parameters: {'user_id_m0': UUID('d69a02f3-a378-4e0b-ae3f-733c09faaa2b'), 'login_count_7days_m0': 0, 'browse_count_m0': '24', 'message_count_m0': None, 'last_active_time_m0': datetime.datetime(2026, 5, 19, 19, 49, 38, 573000), 'daily_duration_m0': 60, 'user_id_m1': UUID('5d4d6c34-ced1-4c18-b9c6-b25ec1135ee4'), 'login_count_7days_m1': 0, 'browse_count_m1': None, 'message_count_m1': None, 'last_active_time_m1': None, 'daily_duration_m1': 0}]
+(Background on this error at: https://sqlalche.me/e/20/f405)[0m
+[32m2026-05-19 20:02:35 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001FC67E45230> records.[0m
+[32m2026-05-19 20:02:47 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x00000203E9A450D0> records.[0m
+[32m2026-05-19 20:06:06 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x0000021589C85BD0> records.[0m
+[32m2026-05-19 20:10:08 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000002CFD4165390> records.[0m
+[32m2026-05-19 20:12:23 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x00000194213E5230> records.[0m
+[32m2026-05-19 20:17:52 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001A16ED99BD0> records.[0m
+[32m2026-05-19 20:20:05 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x0000023E870F50D0> records.[0m
+[32m2026-05-19 20:22:39 - [INFO] - myApp:PlatformUserStatDao.py:34- Successfully upserted <sqlalchemy.engine.cursor.CursorResult object at 0x000001E388E250D0> records.[0m
+[32m2026-05-19 20:30:30 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 20:30:30 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 20:30:30 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 20:30:30 - [INFO] - myApp:start_celery.py:34- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 20:30:30 - [INFO] - myApp:start_celery.py:35- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 20:50:34 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 20:50:34 - [INFO] - myApp:start_celery.py:19- 启动 Celery Worker...[0m
+[32m2026-05-19 20:50:34 - [INFO] - myApp:start_celery.py:20- 命令: celery -A _schedule:app worker -l info -P gevent[0m
+[32m2026-05-19 20:50:34 - [INFO] - myApp:start_celery.py:34- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 20:50:34 - [INFO] - myApp:start_celery.py:35- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:04:16 - [INFO] - myApp:start_celery.py:15- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:06:21 - [INFO] - myApp:start_celery.py:15- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:06:56 - [INFO] - myApp:start_celery.py:12- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:07:52 - [INFO] - myApp:start_celery.py:25- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:08:08 - [INFO] - myApp:start_celery.py:25- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:08:40 - [INFO] - myApp:start_celery.py:25- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:12:39 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:12:39 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[31m2026-05-19 23:13:48 - [ERROR] - myApp:start_celery.py:53- 
+启动失败。[0m
+[32m2026-05-19 23:13:51 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:13:51 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[31m2026-05-19 23:18:28 - [ERROR] - myApp:start_celery.py:51- 
+启动失败。[0m
+[32m2026-05-19 23:18:32 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:18:32 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:18:32 - [INFO] - myApp:start_celery.py:34- D:\workspace\python\flask_project\.venv\Scripts\celery.exe[0m
+[31m2026-05-19 23:19:31 - [ERROR] - myApp:start_celery.py:52- 
+启动失败。[0m
+[32m2026-05-19 23:19:34 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:19:34 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[31m2026-05-19 23:20:02 - [ERROR] - myApp:start_celery.py:51- 
+启动失败。[0m
+[32m2026-05-19 23:21:09 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:21:09 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:21:09 - [INFO] - myApp:start_celery.py:42- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe celery -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 23:21:09 - [INFO] - myApp:start_celery.py:43- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:21:31 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:21:31 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:21:31 - [INFO] - myApp:start_celery.py:42- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 23:21:31 - [INFO] - myApp:start_celery.py:43- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:24:35 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:24:35 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:24:35 - [INFO] - myApp:start_celery.py:42- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 23:24:35 - [INFO] - myApp:start_celery.py:43- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:26:24 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:26:24 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:26:24 - [INFO] - myApp:start_celery.py:42- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 23:26:24 - [INFO] - myApp:start_celery.py:43- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 23:28:17 - [ERROR] - myApp:start_celery.py:51- 
+启动失败。[0m
+[32m2026-05-19 23:28:36 - [INFO] - myApp:start_celery.py:23- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:28:36 - [INFO] - myApp:start_celery.py:30- 启动 Celery Worker...[0m
+[32m2026-05-19 23:28:36 - [INFO] - myApp:start_celery.py:42- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent[0m
+[32m2026-05-19 23:28:36 - [INFO] - myApp:start_celery.py:43- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 23:31:02 - [ERROR] - myApp:start_celery.py:51- 
+启动失败。[0m
+[32m2026-05-19 23:31:05 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:31:05 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:31:05 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --worker-name=192.168.1.6[0m
+[32m2026-05-19 23:31:05 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:31:26 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:31:26 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:31:26 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:31:26 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 23:32:02 - [ERROR] - myApp:start_celery.py:62- 
+启动失败。[0m
+[32m2026-05-19 23:32:06 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:32:06 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:32:06 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4[0m
+[32m2026-05-19 23:32:06 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 23:40:30 - [ERROR] - myApp:start_celery.py:62- 
+启动失败。[0m
+[32m2026-05-19 23:40:33 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:40:33 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:40:33 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:40:33 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:50:09 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:50:09 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:50:09 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:50:09 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:51:40 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:51:40 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:51:40 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:51:40 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-19 23:51:53 - [INFO] - myApp:start_celery.py:34- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:51:53 - [INFO] - myApp:start_celery.py:41- 启动 Celery Worker...[0m
+[32m2026-05-19 23:51:53 - [INFO] - myApp:start_celery.py:53- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:51:53 - [INFO] - myApp:start_celery.py:54- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-19 23:52:25 - [ERROR] - myApp:start_celery.py:62- 
+启动失败。[0m
+[32m2026-05-19 23:52:28 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-19 23:52:28 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-19 23:52:28 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-19 23:52:28 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m

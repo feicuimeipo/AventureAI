@@ -1,0 +1,161 @@
+{
+  "switch_language": "中",
+  "about_us": "ABOUT",
+  "platform_value": "VALUE",
+  "our_team": "TEAM",
+  "download_app": "DOWNLOAD",
+  "contact_us": "CONTACT",
+  "register": "register",
+  "login": "login",
+  "corp_logo_title": "YOLUYORU 资本",
+  "corp_name": "Beijing Hongsong Venture Consulting",
+  "corp_name_en": "北京红松创业咨询管理有限公司",
+  "corp_copy_right": "© 2026 · ALL RIGHTS RESERVED · YOLUYORU.CN",
+
+  "hero_title": "Every Great Project Finds Its <b style='color:#C8883C'>Right Partner</b>",
+  "hero_title_en": "让项目与对的人相遇",
+  "hero_slogan": "VentureAI is an AI-powered startup & investment ecosystem platform. Founder-centric by design, we precisely connect entrepreneurs with investors, industry experts, corporates and government resources — redefining the infrastructure of China's venture ecosystem.",
+  "hero_slogan_en": "AI驱动 · 创业者为核心 · 全球华人创投生态",
+  "learn_more": "learn more",
+  "about_us_title": "Redefining Venture Ecosystem Infrastructure",
+  "about_us_title_en": "重新定义创投生态的基础设施",
+  "about_us_content_1": "Beijing Hongsong Venture Consulting Management Co., Ltd, operating under the YOLUYORU Capital brand, is an AI-driven venture services firm dedicated to building VentureAI — the all-in-one ecosystem platform for global Chinese-speaking entrepreneurs.",
+  "about_us_content_2": "We believe every talented founder deserves access to the right capital, resources and partners. Information asymmetry and resource mismatch are persistent pain points in China's venture ecosystem — and AI technology is the most powerful tool to solve them.",
+  "about_us_content_3": "Headquartered in Singapore, we serve the global Chinese-speaking venture community across Southeast Asia, Hong Kong, North America, and mainland China — building truly cross-border venture ecosystem infrastructure.",
+  "about_us_stats_seed_user": "Seed users",
+  "about_us_stats_enterprise_client": "Enterprise Client",
+  "about_us_stats_core_team_member": "Core Team Members",
+  "about_us_stats_core_ai_core_modules": "AI Core Modules",
+  "about_us_stats_seed_user_en": "种子用户",
+  "about_us_stats_enterprise_client_en": "头部企业用户",
+  "about_us_stats_core_team_member_en": "核心团队成员",
+  "about_us_stats_core_ai_core_modules_en": "AI核心模块",
+  "platform_value_title": "What We Do For You",
+  "platform_value_title_en": "我们能为你做什么",
+
+  "value_title_1": "AI Investor Matching",
+  "value_title_1_subtitle": "AI 精准匹配投资人",
+  "value_title_1_solgan": "AI 精准投资人匹配",
+  "value_title_1_desc": "From a database of 500+ investors, our 4-dimensional matching engine (sector, stage, region, portfolio) generates a custom BP and delivers it directly to your best-fit investors — 10x more efficient than cold outreach.",
+
+  "value_title_2": "Real-Time Industry Intelligence",
+  "value_title_2_subtitle": "行业动态实时情报",
+  "value_title_2_slogan": "实时行业情报推送",
+  "value_title_2_desc": "AI aggregates VC & startup news from 800+ sources daily, extracts key insights, and delivers personalized briefings. Policy changes, funding events, competitor moves — we filter the signal from the noise.",
+
+  "value_title_3": "Co-Founder & Partner Matching",
+  "value_title_3_subtitle": "找创业搭子与合伙人",
+  "value_title_3_slogan": "创业搭子与合伙人匹配",
+  "value_title_3_desc": "AI-powered matching based on skill complement, industry background and startup stage — connecting you with the right co-founders, domain experts and technical partners",
+
+  "value_title_4": "Enterprise Customer Matching",
+  "value_title_4_subtitle": "企业客户对接",
+  "value_title_4_slogan": "企业采购方精准对接",
+  "value_title_4_desc": "Identify enterprise procurement windows and key decision-makers. AI generates personalized outreach messages to help founders land their first major enterprise customers.",
+
+  "value_title_5": "Token Economy & Partner Program",
+  "value_title_5_subtitle": "Token 经济与合伙人制度",
+  "value_title_5_slogan": "Token 经济体系",
+  "value_title_5_desc": "Earn tokens by contributing to the platform. Accumulate and redeem for value. High contributors join equity reform and become platform shareholders — with a future SPAC listing pathway to share in platform growth.",
+
+  "value_title_6": "Global Chinese Venture Network",
+  "value_title_6_subtitle": "全球华人创投生态",
+  "value_title_6_slogan": "全球华人创投网络",
+  "value_title_6_desc": "Spanning Mainland China, Hong Kong, Southeast Asia and Silicon Valley — a bilingual platform serving the global Chinese-speaking venture community wherever they are.",
+
+  "team_avatar_1": "创",
+  "team_avatar_1_name": "Co-Founders ×2",
+  "team_avatar_1_role": "SERIAL ENTREPRENEURS",
+  "team_avatar_1_bg": "Top university alumni with full-cycle startup experience and deep understanding of venture ecosystem pain points.",
+  "team_avatar_1_tags_1": "SERIAL FOUNDER",
+  "team_avatar_1_tags_2": "连续创业者",
+
+
+  "team_avatar_2": "投",
+  "team_avatar_2_name": "Co-Founder ×1",
+  "team_avatar_2_role": "SENIOR INVESTOR",
+  "team_avatar_2_bg": "Seasoned primary market professional with extensive deal evaluation and investment decision-making experience.",
+  "team_avatar_2_tags_1": "VC",
+  "team_avatar_2_tags_2": "DEAL FLOW",
+
+  "team_avatar_3": "研",
+  "team_avatar_3_name": "Partners × 2",
+  "team_avatar_3_role": "RESEARCH COMMERCIALIZATION",
+  "team_avatar_3_bg": "Researchers from top universities with extensive experience in technology transfer and startup incubation.",
+  "team_avatar_3_tags_1": "ACADEMIA",
+  "team_avatar_3_tags_2": "TECH TRANSFER",
+
+  "team_avatar_4": "媒",
+  "team_avatar_4_name": "Partners × 2",
+  "team_avatar_4_role": "SENIOR MEDIA PROFESSIONALS",
+  "team_avatar_4_bg": "Extensive media network and content operations expertise, leading platform content ecosystem and brand communication.",
+  "team_avatar_4_tags_1": "MEDIA",
+  "team_avatar_4_tags_2": "CONTENT",
+
+  "team_avatar_5": "法",
+  "team_avatar_5_name": "Partner × 1",
+  "team_avatar_5_role": "SENIOR LEGAL COUNSEL",
+  "team_avatar_5_bg": "Specializing in venture law — equity structure design, fundraising compliance and cross-border legal support ensuring compliant operations in Singapore and international markets.",
+  "team_avatar_5_tags_1": "LEGAL",
+  "team_avatar_5_tags_2": "COMPLIANCE",
+  "team_avatar_5_tags_3": "CROSS-BORDER",
+  "team_avatar_5_tags_4": "SINGAPORE",
+
+  "team_avatar_6": "4+4",
+  "team_avatar_6_name": "4 Co-Founders + 4 Partners",
+  "team_avatar_6_role": "INDUSTRY · ACADEMIA · CAPITAL · MEDIA · LEGAL",
+  "team_avatar_6_bg": "The team covers 8 capability dimensions: serial entrepreneurship, investment, tech transfer, media, AI tech, academic resources, industry network, and legal compliance.",
+  "team_avatar_6_tags_1": "连续创业",
+  "team_avatar_6_tags_2": "投资经验",
+  "team_avatar_6_tags_3": "成果转化",
+  "team_avatar_6_tags_4": "媒体资源",
+  "team_avatar_6_tags_5": "AI技术",
+  "team_avatar_6_tags_6": "院校资源",
+  "team_avatar_6_tags_7": "产业网络",
+  "team_avatar_6_tags_8": "法律背书",
+
+
+  "download_app_title": "Connect Anytime, Anywhere",
+  "download_app_subtitle": "随时随地，连接创投生态",
+  "download_app_body": "VentureAI App brings the entire venture ecosystem to your fingertips. Investor matching, industry news, project connections — one app for everything.",
+  "download_app_features_1": "Get 1,000 Tokens as a welcome gift on registration",
+  "download_app_features_2": "AI smart matching — find your best-fit investors in 3 minutes",
+  "download_app_features_3": "Personalized VC daily briefing delivered at 08:00 every day",
+  "download_app_features_4": "Bilingual (Chinese/English), serving global Chinese-speaking users",
+  "download_app_features_5": "Singapore servers, fully compliant and secure",
+
+  "contact_us_title": "Get In Touch",
+  "contact_us_subtitle": "期待与你的连接",
+  "contact_us_body": "Whether you're a founder raising capital, an investor seeking deal flow, or a potential partner — we'd love to connect. Our team is based in Beijing and Singapore, ready to support you.",
+  "contact_us_method_email": "Email",
+  "contact_us_method_wechat": "Wechat",
+  "contact_us_method_whatsapp": "Click to start chat",
+  "contact_us_follow": "Follow US",
+  "contact_us_location": "BEIJING.SINGAPORE",
+  "follow_us_redbook": "小红书",
+  "follow_us_tiktok": "抖音",
+  "follow_us_linkedIn": "linkedIn",
+  "follow_us_little_Universe": "XIAOYUZHOU",
+
+
+
+
+
+
+
+
+
+
+
+
+  "app_user_register_title": "用户注册",
+  "app_user_login_title": "用户登录",
+  "app_user_register_guide": "注册流程",
+  "app_user_register_guide_base": "基本信息",
+  "app_user_register_guide_role": "选择角色",
+  "app_user_register_guide_profile": "完善档案",
+  "app_user_register_guide_start": "开始使用",
+  "app_partner_name": "Partner"
+}
+
+

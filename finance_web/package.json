@@ -1,0 +1,68 @@
+{
+  "name": "finance_web",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --mode development",
+    "build": "vue-tsc -b && vite build --mode production",
+    "build:test": "vue-tsc  && vite build --mode test",
+    "preview": "vite preview",
+    "format": "prettier --write src/",
+    "lint": "eslint src/**/*.{ts,vue} --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.2.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.15.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-vue-next": "^0.45.0",
+    "dayjs": "^1.11.20",
+    "echarts": "^6.0.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.2.2",
+    "vue": "^3.5.32",
+    "vue-echarts": "^8.0.1",
+    "vue-i18n": "^11.3.1",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/bootstrap": "^5.2.10",
+    "@types/node": "^24.12.2",
+    "@types/nprogress": "^0.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vitejs/plugin-vue-jsx": "^5.1.5",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-vue": "^10.8.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.1",
+    "sass": "^1.99.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.8",
+    "vue-tsc": "^3.2.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}

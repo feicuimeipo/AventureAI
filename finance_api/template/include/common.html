@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标题</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <div class="header">我是公共内容-头部</div>
+    <hr/>
+    {% block one_floor %}
+    {% endblock %}
+    <hr/>
+    <div>我是公共内容--中部</div>
+    <hr/>
+    {% block two_floor %}
+    {% endblock %}
+    <hr/>
+    <div>我是公共内容--尾部</div>
+</body>
+</html>

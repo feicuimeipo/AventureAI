@@ -1,0 +1,28 @@
+[32m2026-05-20 00:08:07 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:08:07 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-20 00:08:07 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:08:07 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-20 00:08:37 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:08:37 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-20 00:08:37 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:08:37 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m
+[31m2026-05-20 00:09:05 - [ERROR] - myApp:start_celery.py:64- 
+启动失败。[0m
+[32m2026-05-20 00:09:06 - [INFO] - myApp:init_task.py:14- ---初始化--partner_match_based_on_need--id:19a909f3-9593-4cb5-90a5-6c894e285b83,status:PENDING[0m
+[32m2026-05-20 00:09:06 - [INFO] - myApp:init_task.py:21- ---初始化--transform_user_profile_into_milvus--id:2ab5a5ff-8c42-42d4-b0d9-5c621adecaa4,status:PENDING[0m
+[32m2026-05-20 00:09:10 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:09:10 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-20 00:09:10 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:09:10 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-20 00:11:30 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:11:30 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-20 00:11:30 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:11:30 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-20 00:15:31 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:15:31 - [INFO] - myApp:start_celery.py:43- 启动 Celery Worker...[0m
+[32m2026-05-20 00:15:31 - [INFO] - myApp:start_celery.py:55- 正在启动: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:15:31 - [INFO] - myApp:start_celery.py:56- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-20 00:42:33 - [INFO] - myApp:start_celery.py:36- 正在检查 gevent 是否安装...[0m
+[32m2026-05-20 00:42:33 - [INFO] - myApp:start_celery.py:48- 正在启动 Celery Worker...: D:\workspace\python\flask_project\.venv\Scripts\celery.exe -A _schedule.celery_app:celery_app worker -l info -P gevent --concurrency=4 --hostname=192.168.1.6[0m
+[32m2026-05-20 00:42:33 - [INFO] - myApp:start_celery.py:49- 工作目录: D:\er-yan\finance_api[0m
+[32m2026-05-20 00:42:40 - [INFO] - myApp:task_partner_match.py:23- --开始<@task: partner_match_based_on_need of MyApp at 0x1306d403e00>---[0m

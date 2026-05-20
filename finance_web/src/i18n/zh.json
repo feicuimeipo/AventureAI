@@ -1,0 +1,158 @@
+{
+  "switch_language": "EN",
+  "about_us": "关于我们",
+  "platform_value": "平台价值",
+  "our_team": "团队",
+  "download_app": "下载APP",
+  "contact_us": "联系我们",
+  "register": "注册",
+  "login": "登录",
+  "corp_logo_title": "YOLUYORU 资本",
+  "corp_name": "北京红松创业咨询管理有限公司",
+  "corp_name_en": "Beijing Hongsong Venture Consulting",
+  "corp_copy_right": "© 2026 · 京ICP备XXXXXXXX号 · ALL RIGHTS RESERVED",
+
+  "hero_title": "让每一个<b style='color:#C8883C'>好项目</b>都找到对的人",
+  "hero_title_en": "Every Great Project Finds Its Right Partner",
+  "hero_slogan": "让VentureAI 是一个 AI 驱动的创投生态平台，以创业者为核心，精准连接投资人、行业专家、上市公司与地方政府资源，重新定义中国创投生态的基础设施。",
+  "hero_slogan_en": "AI-powered · Founder-centric · Global Chinese Venture Ecosystem",
+  "learn_more": "了解更多",
+  "about_us_title": "重新定义创投生态的基础设施",
+  "about_us_title_en": "Redefining Venture Ecosystem Infrastructure",
+  "about_us_content_1": "北京红松创业咨询管理有限公司，商标品牌 YOLUYORU 资本，是一家以 AI 技术为核心驱动力的创投服务机构，专注于打造全球华人创业者的一站式生态平台 VentureAI。",
+  "about_us_content_2": "我们相信，每一个优秀的创业者都应该有机会找到合适的资本、资源与伙伴。信息不对称和资源错配是中国创投生态长期存在的核心痛点，而 AI 技术正是解决这一问题的最佳工具。",
+  "about_us_content_3": "公司总部计划落地新加坡，以国际化视野服务东南亚、香港、北美及中国大陆的华人创投圈，打造真正跨境的创投生态基础设施。",
+  "about_us_stats_seed_user": "种子用户",
+  "about_us_stats_enterprise_client": "头部企业用户",
+  "about_us_stats_core_team_member": "核心团队成员",
+  "about_us_stats_core_ai_core_modules": "AI核心模块",
+  "about_us_stats_seed_user_en": "Seed users",
+  "about_us_stats_enterprise_client_en": "Enterprise Client",
+  "about_us_stats_core_team_member_en": "Core Team Members",
+  "about_us_stats_core_ai_core_modules_en": "AI Core Modules",
+  "platform_value_title": "我们能为你做什么",
+  "platform_value_title_en": "What We Do For You",
+
+  "value_title_1": "AI 精准匹配投资人",
+  "value_title_1_subtitle": "AI Investor Matching",
+  "value_title_1_slogan": "AI 精准投资人匹配",
+  "value_title_1_desc": "从500+投资人数据库中，基于赛道、阶段、地区、案例四维匹配，生成专属定制BP，一键触达最匹配的投资人，效率提升10倍。",
+
+  "value_title_2": "行业动态实时情报",
+  "value_title_2_subtitle": "Real-Time Industry Intelligence",
+  "value_title_2_slogan": "实时行业情报推送",
+  "value_title_2_desc": "AI每日从800+来源聚合创投资讯，自动提炼要点，个性化推送。政策、融资事件、竞品动态——你需要知道的，我们帮你过滤。",
+
+  "value_title_3": "找创业搭子与合伙人",
+  "value_title_3_subtitle": "Co-Founder & Partner Matching",
+  "value_title_3_slogan": "创业搭子与合伙人匹配",
+  "value_title_3_desc": "基于技能互补、行业背景、创业阶段的AI智能匹配，连接适合你的联合创始人、行业专家与技术合伙人。",
+
+  "value_title_4": "企业客户对接",
+  "value_title_4_subtitle": "Enterprise Customer Matching",
+  "value_title_4_slogan": "企业采购方精准对接",
+  "value_title_4_desc": "识别目标企业的采购窗口期和关键决策人，AI生成定制化破冰话术，帮助创业者找到第一批大客户。",
+
+  "value_title_5": "Token 经济与合伙人制度",
+  "value_title_5_subtitle": "Token Economy & Partner Program",
+  "value_title_5_slogan": "Token 经济体系",
+  "value_title_5_desc": "用户贡献即得Token奖励，积累后可变现。高贡献用户参与股改，成为平台股东。平台最终以SPAC方式上市，与用户共享增长红利.",
+
+  "value_title_6": "全球华人创投生态",
+  "value_title_6_subtitle": "Global Chinese Venture Network",
+  "value_title_6_slogan": "全球华人创投网络",
+  "value_title_6_desc": "覆盖大陆、香港、东南亚、北美硅谷的华人创投圈，中英双语平台，服务全球华人创业者与投资人。",
+
+  "team_title": "知名院校背景，跨界互补",
+  "team_title_subtitle": "Diverse Expertise · Shared Vision · Industry & Academia & Capital",
+
+  "team_avatar_1": "创",
+  "team_avatar_1_name": "联合创始人 X 2",
+  "team_avatar_1_role": "连续创业者",
+  "team_avatar_1_bg": "知名院校背景，具备完整创业经验，深度理解创投生态痛点与机遇。",
+  "team_avatar_1_tags_1": "SERIAL FOUNDER",
+  "team_avatar_1_tags_2": "连续创业者",
+
+  "team_avatar_2": "投",
+  "team_avatar_2_name": "联合创始人 × 1",
+  "team_avatar_2_role": "资深投资人",
+  "team_avatar_2_bg": "一级市场资深从业者，拥有丰富的项目评估与投资决策经验，深谙投资人需求。",
+  "team_avatar_2_tags_1": "VC",
+  "team_avatar_2_tags_2": "DEAL FLOW",
+
+  "team_avatar_3": "研",
+  "team_avatar_3_name": "合伙人 × 2",
+  "team_avatar_3_role": "成果转化专家",
+  "team_avatar_3_bg": "知名院校研究人员，具备丰富的科研成果转化经验，深度对接高校资源与创业孵化。",
+  "team_avatar_3_tags_1": "ACADEMIA",
+  "team_avatar_3_tags_2": "TECH TRANSFER",
+
+  "team_avatar_4": "媒",
+  "team_avatar_4_name": "合伙人 × 2",
+  "team_avatar_4_role": "资深媒体人",
+  "team_avatar_4_bg": "拥有深厚的媒体资源与内容运营经验，负责平台内容生态建设与品牌传播。",
+  "team_avatar_4_tags_1": "MEDIA",
+  "team_avatar_4_tags_2": "CONTENT",
+
+  "team_avatar_5": "法",
+  "team_avatar_5_name": "合伙人 × 1",
+  "team_avatar_5_role": "资深律师",
+  "team_avatar_5_bg": "专注创投领域法律服务，为平台提供股权结构设计、融资合规、跨境法律支持，确保平台在新加坡及国际市场的合规运营。",
+  "team_avatar_5_tags_1": "LEGAL",
+  "team_avatar_5_tags_2": "COMPLIANCE",
+  "team_avatar_5_tags_3": "CROSS-BORDER",
+  "team_avatar_5_tags_4": "SINGAPORE",
+
+  "team_avatar_6": "4+4",
+  "team_avatar_6_name": "4 联创 + 4 合伙人",
+  "team_avatar_6_role": "产学研资媒法 全覆盖",
+  "team_avatar_6_bg": "团队覆盖连续创业、投资经验、成果转化、媒体资源、法律合规八大能力维度，为平台提供全方位支撑。",
+  "team_avatar_6_tags_1": "连续创业",
+  "team_avatar_6_tags_2": "投资经验",
+  "team_avatar_6_tags_3": "成果转化",
+  "team_avatar_6_tags_4": "媒体资源",
+  "team_avatar_6_tags_5": "AI技术",
+  "team_avatar_6_tags_6": "院校资源",
+  "team_avatar_6_tags_7": "产业网络",
+  "team_avatar_6_tags_8": "法律背书",
+
+  "download_app_title": "随时随地，连接创投生态",
+  "download_app_subtitle": "Connect to the Venture Ecosystem Anytime, Anywhere",
+  "download_app_body": "VentureAI App 将整个创投生态带到你的手机。投资人匹配、行业资讯、项目对接——一个App搞定所有。",
+  "download_app_features_1": "注册即获 1,000 Token 开户礼包",
+  "download_app_features_2": "AI智能匹配，3分钟找到最适合的投资人",
+  "download_app_features_3": "每日08:00推送个性化创投早报",
+  "download_app_features_4": "中英双语，覆盖全球华人用户",
+  "download_app_features_5": "新加坡服务器，数据合规安全",
+
+  "contact_us_title": "与我们取得联系",
+  "contact_us_subtitle": "Get In Touch · We'd Love To Hear From You",
+  "contact_us_body": "无论你是正在融资的创业者、寻找项目的投资人，还是有意向的合作伙伴，我们都欢迎与你交流。团队成员来自北京、新加坡，随时为你提供支持。",
+  "contact_us_method_whatsapp": "点击发起对话",
+  "contact_us_follow": "关注我们",
+  "contact_us_location": "关注我们",
+  "follow_us_redbook": "小红书",
+  "follow_us_tiktok": "抖音",
+  "follow_us_twitter": "Twitter/X",
+  "follow_us_linkedin": "linkedIn",
+  "follow_us_little_universe": "小宇宙",
+
+
+
+
+
+
+
+
+
+  "app_user_register_title": "用户注册",
+  "app_user_login_title": "用户登录",
+  "app_user_register_guide": "注册流程",
+  "app_user_register_guide_base": "基本信息",
+  "app_user_register_guide_role": "选择角色",
+  "app_user_register_guide_profile": "完善档案",
+  "app_user_register_guide_start": "开始使用",
+  "app_partner_name": "创业搭子"
+}
+
+

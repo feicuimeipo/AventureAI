@@ -1,0 +1,29 @@
+<%packages=','.join(package['sqlalchemy'])
+pgvector_packages=','.join(package['pgvector'])
+python_packages=','.join(package['python'])
+postgresql_packages=','.join(package['postgresql'])%>
+from sqlalchemy.orm import Mapped, mapped_column
+from database.entity.BaseModel import BaseModel
+from typing import Optional
+from sqlalchemy import ${packages}
+% if python_packages != '':
+import ${python_packages}
+% endif
+% if pgvector_packages != '':
+from pgvector.sqlalchemy import ${pgvector_packages}
+% endif
+% if postgresql_packages != '':
+from sqlalchemy.dialects.postgresql import ${postgresql_packages}
+% endif
+
+
+<%
+# from sqlalchemy.orm import declarative_base
+# Base = declarative_base()
+# tableName=table_name.capitalize()
+%>
+class ${entity_name}Model(BaseModel):
+    __tablename__ = '${table_name}'
+   % for column in columns:
+    ${column}
+   % endfor
