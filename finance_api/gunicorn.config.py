@@ -3,7 +3,7 @@ debug = True
 # 访问地址
 bind = "0.0.0.0:5000"
 # 工作进程数
-workers = 5
+workers = multiprocessing.cpu_count() * 2 + 1
 worker_connections = 1000
 worker_class = 'gevent'
 # 工作线程数
