@@ -10,6 +10,8 @@ worker_class = 'gevent'
 # threads = 5
 # 超时时间
 timeout = 30
+# 保持连接超时时间
+keepalive = 2
 # 输出日志级别
 loglevel = 'debug'
 # 存放日志路径
