@@ -246,7 +246,8 @@
 <script setup lang="ts">
 import {ref} from 'vue'
 import PurchaseModal from "@/views/token/PurchaseModal.vue";
-import {showBootStrapToast} from "@/views/token/ToastForToken.tsx"; // 确保你已经正确引入了Bootstrap的JS部分
+import {showBootStrapToast} from "@/views/token/ToastForToken.tsx";
+// import {showBootStrapToast} from "@/views/token/ToastForToken.tsx"; // 确保你已经正确引入了Bootstrap的JS部分
 
 
 const showBuyModal = ref<boolean>(false);
@@ -260,6 +261,7 @@ const closeBuyDialog =() =>{
 }
 
 const handleCloseBuyModal = (total:number, bonues:number) => {
+  console.log("total="+ total + ",bonues=" + bonues)
   console.log("购买成功!")
 }
 
@@ -277,19 +279,19 @@ function dailyCheckIn() {
   showToast('✅','连续签到第 49 天！','明天签到解锁额外 +50T 周奖励',true);
 }
 
-// Spend token
-function spendToken(btn, cost, name) {
-  if (balance < cost) {
-    showToast('❌','Token不足',`需要 ${cost}T，当前 ${balance}T`,false);
-    openBuyDialog();
-    return;
-  }
-  balance -= cost;
-  updateDisplay();
-  btn.textContent = '✓ 已兑换';
-  btn.classList.add('bought');
-  showToast('✨', `已兑换：${name}`, `-${cost} Token`, false);
-}
+//
+// function spendToken(btn:any, cost:any, name:any) {
+//   if (balance < cost) {
+//     showToast('❌','Token不足',`需要 ${cost}T，当前 ${balance}T`,false);
+//     openBuyDialog();
+//     return;
+//   }
+//   balance -= cost;
+//   updateDisplay();
+//   btn.textContent = '✓ 已兑换';
+//   btn.classList.add('bought');
+//   showToast('✨', `已兑换：${name}`, `-${cost} Token`, false);
+// }
 
 
 
@@ -298,65 +300,74 @@ const showToast = async (icon: string,
                          text: string,
                          change: string,
                          isPositive: boolean) => {
-  await showBootStrapToast(icon, text, change, isPositive);
+  await showBootStrapToast(icon, text, change, isPositive, 'ToastForToken');
 }
 
 const completeTask = (id:string, taskName:string,reward:number) =>{
-  const el = document.getElementById(id);
-  if (el.classList.contains('done')) return;
-  el.classList.add('done');
-  // Update progress bar
-  const fill = el.querySelector('.tc-prog-fill');
-  const label = el.querySelector('.tc-prog-label');
-  if (fill) fill.style.width = '100%';
-  if (label) label.textContent = '1/1';
+  const el:any = document.getElementById(id);
+  if (el) {
+    if (el.classList.contains('done')) return;
+    el.classList.add('done');
+    // Update progress bar
+    const fill = el.querySelector('.tc-prog-fill');
+    const label = el.querySelector('.tc-prog-label');
+    if (fill) fill.style.width = '100%';
+    if (label) label.textContent = '1/1';
 
-  balance += reward;
-  todayEarned += reward;
-  updateDisplay();
+    balance += reward;
+    todayEarned += reward;
+    updateDisplay();
 
-  showToast('🪙', `完成：${taskName}`, `+${reward} Token 已到账`, true);
+    showToast('🪙', `完成：${taskName}`, `+${reward} Token 已到账`, true);
+  }
 }
 
 // Update display
 function updateDisplay() {
-  const fmt = n => n.toLocaleString();
-  document.getElementById('navBalance').textContent = fmt(balance);
-  document.getElementById('heroBalance').textContent = fmt(balance);
-  document.getElementById('lbMyTokens').textContent = fmt(balance);
-  document.getElementById('navChange').textContent = '+今日 ' + todayEarned;
-  document.getElementById('todayEarned').textContent = '+' + todayEarned;
+  const fmt = (n:any) => n.toLocaleString();
+  const e1 = document.getElementById('navBalance');
+  const e2 = document.getElementById('heroBalance');
+  const e3 = document.getElementById('lbMyTokens');
+  const e4 = document.getElementById('navChange');
+  const e5 = document.getElementById('todayEarned');
+  const e6 = document.getElementById('lpFill');
+  const e7 = document.getElementById('lpText');
 
+  e1? e1.textContent = fmt(balance): '';
+  e2? e2.textContent = fmt(balance): '';
+  e3? e3.textContent = fmt(balance): '';
+  e4? e4.textContent = '+今日 ' + todayEarned: '';
+  e5? e5.textContent = '+' + todayEarned: '';
   // Level progress
   const lvMin = 2000, lvMax = 5000;
   const pct = Math.min(100, Math.round(((balance - lvMin) / (lvMax - lvMin)) * 100));
-  document.getElementById('lpFill').style.width = Math.max(0,pct) + '%';
-  document.getElementById('lpText').textContent = `${fmt(balance)} / ${fmt(lvMax)}`;
+  e6? e6.style.width = Math.max(0,pct) + '%': ''
+  e7? e7.textContent = `${fmt(balance)} / ${fmt(lvMax)}`: 0;
 }
 
 function updateBalance(total:number){
   balance += total;
 }
 
-function updateMimiChart(){
-// Build mini chart
-  const chartData = [120,80,200,150,320,90,180,260,140,380,210,290,180,420];
-  const maxVal = Math.max(...chartData);
-  const chartEl = document.getElementById('miniChart');
-  chartData.forEach((v,i) => {
-    const bar = document.createElement('div');
-    bar.className = 'thh-bar';
-    const h = Math.max(6, (v/maxVal)*40);
-    bar.style.height = h + 'px';
-    const isToday = i === chartData.length - 1;
-    bar.style.background = isToday
-        ? 'linear-gradient(180deg,var(--gold),var(--gold2))'
-        : v > 200 ? 'rgba(79,142,247,0.4)' : 'rgba(255,255,255,0.08)';
-    bar.title = (i === chartData.length-1 ? '今天' : `${14-i}天前`) + ' +' + v + 'T';
-    chartEl.appendChild(bar);
-  });
-
-}
+// function updateMimiChart(){
+// // Build mini chart
+//   const chartData = [120,80,200,150,320,90,180,260,140,380,210,290,180,420];
+//   const maxVal = Math.max(...chartData);
+//   const chartEl = document.getElementById('miniChart');
+//   chartData.forEach((v,i) => {
+//     const bar = document.createElement('div');
+//     bar.className = 'thh-bar';
+//     const h = Math.max(6, (v/maxVal)*40);
+//     bar.style.height = h + 'px';
+//     const isToday = i === chartData.length - 1;
+//     bar.style.background = isToday
+//         ? 'linear-gradient(180deg,var(--gold),var(--gold2))'
+//         : v > 200 ? 'rgba(79,142,247,0.4)' : 'rgba(255,255,255,0.08)';
+//     bar.title = (i === chartData.length-1 ? '今天' : `${14-i}天前`) + ' +' + v + 'T';
+//     chartEl.appendChild(bar);
+//   });
+//
+// }
 
 // updateDisplay()
 // updateMimiChart()

@@ -5,9 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 
 export default defineConfig(({ mode }) => {
-  // 运行模式
   console.log('mode', mode)
-  // 当前路径
   console.log('process.cwd()',process.cwd())
   const env=loadEnv(mode,process.cwd())
   console.log('env',env)

@@ -9,7 +9,7 @@ import { defineComponent } from 'vue'; // 确保你已经正确引入了Bootstra
 import { Toast } from 'bootstrap';
 
 
-export const showToast = async (
+export const showBootStrapToast = async (
   icon: string,
   text: string,
   change: string,

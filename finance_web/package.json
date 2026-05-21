@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host --mode development",
-    "build": "vue-tsc -b && vite build --mode production",
+    "build_b": "vue-tsc -b && vite build --mode production",
+    "build": "vue-tsc --noEmit && vite build --mode production",
     "build:test": "vue-tsc  && vite build --mode test",
     "preview": "vite preview",
     "format": "prettier --write src/",
-    "lint": "eslint src/**/*.{ts,vue} --fix",
-    "prepare": "husky install"
+    "lint": "eslint src/**/*.{ts,vue} --fix"
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
@@ -32,23 +32,21 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.2",
     "@types/bootstrap": "^5.2.10",
-    "@types/node": "^24.12.2",
+    "@types/node": "^24.12.4",
     "@types/nprogress": "^0.2.3",
     "@typescript-eslint/eslint-plugin": "^8.58.0",
     "@typescript-eslint/parser": "^8.58.0",
-    "@vitejs/plugin-vue": "^6.0.5",
+    "@vitejs/plugin-vue": "^6.0.7",
     "@vitejs/plugin-vue-jsx": "^5.1.5",
     "@vue/tsconfig": "^0.9.1",
     "eslint": "^10.2.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-vue": "^10.8.0",
-    "husky": "^8.0.0",
-    "lint-staged": "^16.4.0",
     "prettier": "^3.8.1",
     "sass": "^1.99.0",
     "typescript": "~6.0.2",
-    "vite": "^8.0.8",
+    "vite": "^8.0.13",
     "vue-tsc": "^3.2.6"
   },
   "browserslist": [

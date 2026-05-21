@@ -53,7 +53,6 @@ main {
 
 section {
   padding: 100px 5vw;
-  //position: relative;
 }
 
 .hero {
@@ -61,8 +60,6 @@ section {
   display: flex;
   align-items: center;
   padding: 120px 5vw 80px;
-  //position: relative;
-  //overflow: hidden;
 }
 
 .section-label {

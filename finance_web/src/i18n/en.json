@@ -70,7 +70,6 @@
   "team_avatar_1_tags_1": "SERIAL FOUNDER",
   "team_avatar_1_tags_2": "连续创业者",
 
-
   "team_avatar_2": "投",
   "team_avatar_2_name": "Co-Founder ×1",
   "team_avatar_2_role": "SENIOR INVESTOR",
@@ -114,7 +113,6 @@
   "team_avatar_6_tags_7": "产业网络",
   "team_avatar_6_tags_8": "法律背书",
 
-
   "download_app_title": "Connect Anytime, Anywhere",
   "download_app_subtitle": "随时随地，连接创投生态",
   "download_app_body": "VentureAI App brings the entire venture ecosystem to your fingertips. Investor matching, industry news, project connections — one app for everything.",
@@ -137,17 +135,6 @@
   "follow_us_linkedIn": "linkedIn",
   "follow_us_little_Universe": "XIAOYUZHOU",
 
-
-
-
-
-
-
-
-
-
-
-
   "app_user_register_title": "用户注册",
   "app_user_login_title": "用户登录",
   "app_user_register_guide": "注册流程",
@@ -157,5 +144,3 @@
   "app_user_register_guide_start": "开始使用",
   "app_partner_name": "Partner"
 }
-
-
