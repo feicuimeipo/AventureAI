@@ -7,3 +7,7 @@ __pycache__/
 /.ideal/
 /log/
 app/.env.prod
+.venv_314/
+finance_api/.venv_314/
+finance_api/.venv
+wheels/
