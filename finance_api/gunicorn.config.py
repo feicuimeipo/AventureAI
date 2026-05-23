@@ -1,7 +1,9 @@
+import multiprocessing
+
 # 是否开启debug模式
 debug = True
 # 访问地址
-bind = "0.0.0.0:5000"
+bind = "0.0.0.0:8000"
 # 工作进程数
 workers = multiprocessing.cpu_count() * 2 + 1
 worker_connections = 1000

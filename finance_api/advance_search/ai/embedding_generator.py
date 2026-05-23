@@ -9,18 +9,13 @@ embed_documents: 用于批量生成多个文档文本的向量（通常用于构
 """
 
 from langchain_openai import OpenAIEmbeddings
-
 from app.config import EnvConfig
 from common.Logger import getLogger
-
 logger = getLogger("embedding_generator.py")
-
 def bulk_generate_user_embedding(documents:list[str]):
     """
-    :param arg:
-    :param func:
-    :param query_text: 生成单个查询的向量 - # 拼接向量化文本 - 结构化文本效果优于纯 bio
-    :return:
+    :param documents: 生成用于生成embeddings的初始文档
+    :return: 返回批量生成的向量列表
     """
     api_key = EnvConfig.OPENAI_API_KEY
     openai_api_base = EnvConfig.OPENAI_API_BASE
@@ -29,7 +24,7 @@ def bulk_generate_user_embedding(documents:list[str]):
         return None
 
     # 2. 初始化模型
-    # model: 指定模型名称，如 'text-embedding-3-small', 'text-embedding-3-large', 'text-embedding-ada-002'
+    # model: 指定模型名称，如 'text-embedding-3-small'
     # temperature: 控制输出的随机性，0 为最确定，1 为最随机
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-small",
@@ -48,9 +43,7 @@ def bulk_generate_user_embedding(documents:list[str]):
 
 def generate_user_embedding(query_text:str):
     """
-    :param arg:
-    :param func:
-    :param query_text: 生成单个查询的向量 - # 拼接向量化文本 - 结构化文本效果优于纯 bio
+    :param query_text: 准备的格式化JSON文件
     :return:
     """
     api_key = EnvConfig.OPENAI_API_KEY
@@ -59,11 +52,9 @@ def generate_user_embedding(query_text:str):
         logger.error("未找到 OPENAI_API_KEY 环境变量。")
         return None
 
-    # 1. 生成单个查询的向量 - # 拼接向量化文本 - 结构化文本效果优于纯 bio
-    # query_text = func(arg)
 
     # 2. 初始化模型
-    # model: 指定模型名称，如 'text-embedding-3-small', 'text-embedding-3-large', 'text-embedding-ada-002'
+    # model: 指定模型名称，这里用 'text-embedding-3-small'
     # temperature: 控制输出的随机性，0 为最确定，1 为最随机
     embeddings = OpenAIEmbeddings(
         model="text-embedding-3-small",
