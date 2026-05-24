@@ -21,7 +21,6 @@ from common.Logger import getLogger
 app = create_flask_app()
 celery = make_celery(app)
 init_task.startInit()
-
 logger = getLogger((os.path.basename(__file__)))
 
 @app.route("/")
