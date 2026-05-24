@@ -4,7 +4,6 @@ from flask import Flask
 from flask_cors import CORS
 from flask_swagger_ui import get_swaggerui_blueprint
 
-import settings
 from app.config import EnvConfig
 from common.Logger import getLogger
 
@@ -78,13 +77,12 @@ def create_flask_app():
     init_scheduler()
 
     #默认允许所有域名
-    if settings.cros:
-        CORS(app,
-             resources={r"/*": {"origins": ["http://localhost","http://127.0.0.1","http://www.915zb.com", "http://915zb.com","http://api.915zb.com","https://www.015zb.com", "https://915zb.com","https://api.915zb.com"]}},
-             supports_credentials=True,
-             origins=["http://localhost","http://127.0.0.1","http://www.915zb.com", "http://915zb.com","http://api.915zb.com","https://www.015zb.com", "https://915zb.com","https://api.915zb.com"],
-             methods=["GET", "POST", "PUT", "DELETE"],
-             allow_headers=["Content-Type", "X-Token", "Authorization"],
-             expose_headers=["X-Total-Count", "X-Page-Number"])
+    CORS(app,
+         resources={r"/*": {"origins": ["http://localhost","http://127.0.0.1","http://www.915zb.com", "http://915zb.com","http://api.915zb.com","https://www.015zb.com", "https://915zb.com","https://api.915zb.com"]}},
+         supports_credentials=True,
+         origins=["http://localhost","http://127.0.0.1","http://www.915zb.com", "http://915zb.com","http://api.915zb.com","https://www.015zb.com", "https://915zb.com","https://api.915zb.com"],
+         methods=["GET", "POST", "PUT", "DELETE"],
+         allow_headers=["Content-Type", "X-Token", "Authorization"],
+         expose_headers=["X-Total-Count", "X-Page-Number"])
 
     return app

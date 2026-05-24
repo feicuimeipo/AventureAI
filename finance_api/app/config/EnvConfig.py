@@ -62,6 +62,7 @@ APP_NAME = os.getenv("APP_NAME")
 LOG_LEVEL = os.getenv("LOG_LEVEL")
 LOG_FILE_PATH = os.getenv("LOG_FILE_PATH")
 app_port = os.getenv("APP_PORT")
+cors = os.getenv("CORS")
 # 数据库
 mysql_db_url = os.getenv('MYSQL_DB_URL')
 db_url = os.getenv('DB_URL')
