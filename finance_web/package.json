@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host --mode development",
+    "test": "vite --host --mode test",
     "build_b": "vue-tsc -b && vite build --mode production",
     "build": "vue-tsc --noEmit && vite build --mode production",
     "build:test": "vue-tsc  && vite build --mode test",
@@ -23,13 +24,13 @@
     "echarts": "^6.0.0",
     "nprogress": "^0.2.0",
     "pinia": "^3.0.4",
-    "tailwindcss": "^4.2.2",
     "vue": "^3.5.32",
     "vue-echarts": "^8.0.1",
     "vue-i18n": "^11.3.1",
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/vite": "^4.2.2",
     "@types/bootstrap": "^5.2.10",
     "@types/node": "^24.12.4",
@@ -39,14 +40,17 @@
     "@vitejs/plugin-vue": "^6.0.7",
     "@vitejs/plugin-vue-jsx": "^5.1.5",
     "@vue/tsconfig": "^0.9.1",
+    "autoprefixer": "^10.5.0",
     "eslint": "^10.2.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-vue": "^10.8.0",
+    "postcss": "^8.5.15",
     "prettier": "^3.8.1",
     "sass": "^1.99.0",
+    "tailwindcss": "^4.3.0",
     "typescript": "~6.0.2",
-    "vite": "^8.0.13",
+    "vite": "^8.0.14",
     "vue-tsc": "^3.2.6"
   },
   "browserslist": [

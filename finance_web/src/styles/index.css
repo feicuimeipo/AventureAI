@@ -133,3 +133,16 @@ html { scroll-behavior:smooth; }
     padding: 0;
     text-align: left;
 }
+
+
+
+/* 自定义进度条颜色 */
+#nprogress .bar {
+    background: #409eff !important; /* 修改为你主题的颜色 */
+    height: 3px !important;
+}
+
+/* 隐藏右侧的旋转图标（可选，提交时通常不需要） */
+#nprogress .spinner {
+    display: none !important;
+}

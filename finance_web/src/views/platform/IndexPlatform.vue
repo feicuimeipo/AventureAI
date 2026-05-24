@@ -20,6 +20,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import "@/styles/module-platform.scss"
 import AppHeader from "@/components/AppHeader.vue";
 import {ref} from "vue";

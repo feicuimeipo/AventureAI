@@ -87,6 +87,8 @@ section {
   width: calc(100% - 10vw);
 }
 .router-link-active {
-  @apply bg-indigo-600 text-white;
+  /* @apply bg-indigo-600 text-white; */
+  background-color: #4f46e5; /* bg-indigo-600 的具体色值 */
+  color: #ffffff;            /* text-white 的具体色值 */
 }
 </style>

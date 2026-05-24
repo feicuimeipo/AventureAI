@@ -46,6 +46,7 @@
   </div>
 </template>
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module_newsfeed.scss';
 import AppHeader from '@/components/AppHeader.vue';
 import { getNewsFeedMenus, getNewsFeedStyle } from '@/utils/menuUtils.ts';

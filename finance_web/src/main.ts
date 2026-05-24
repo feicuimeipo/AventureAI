@@ -1,13 +1,17 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+// @ts-ignore
 import '@/styles/bootstrap.css';
+// @ts-ignore
 import "@/styles/tailwind.css";
+// @ts-ignore
 import '@/styles/index.css';
 import router from "@/router";
 import { createPinia } from 'pinia'
 const pinia = createPinia()
 import i18n from './i18n'
 //导入进度条插件
+// @ts-ignore
 import 'nprogress/nprogress.css'
 
 

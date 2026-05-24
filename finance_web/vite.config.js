@@ -33,6 +33,9 @@ export default defineConfig(({ mode }) => {
             },
         },
         css: {
+            //关键配置：强制使用 PostCSS 而不是 LightningCSS
+            transformer: 'postcss',
+            postcss: './postcss.config.cjs',
             preprocessorOptions: {
                 scss: {
                     additionalData: `@use "@/styles/variables.scss" as *;`,

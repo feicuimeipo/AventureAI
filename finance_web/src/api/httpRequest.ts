@@ -1,6 +1,7 @@
 import axios, { type AxiosInstance, type AxiosRequestConfig } from 'axios';
 // 引入NProgress, 引入nprogress样式文件
 import NProgress from 'nprogress';
+// @ts-ignore
 import 'nprogress/nprogress.css';
 import MessageBox from '@/utils/MessageBox.ts';
 import { getAuthToken } from '@/stores/token.ts';

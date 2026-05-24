@@ -118,6 +118,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module_partner.scss';
 import { onMounted } from 'vue';
 import { togleElementById } from '@/utils/menuUtils.ts';
