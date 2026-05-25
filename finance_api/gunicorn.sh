@@ -1,4 +1,3 @@
 mkdir log -p
-gunicorn -c ./gunicorn.conf.py main:app -D
-
-
+source .venv/bin/activate
+gunicorn -c gunicorn.conf.py main:app -D

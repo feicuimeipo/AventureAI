@@ -1,10 +1,9 @@
-
-import asyncio
 import socket
 
 from celery import Celery
 from celery.schedules import crontab
 from flask import Flask
+
 from app.config import EnvConfig
 from common.Logger import getLogger
 

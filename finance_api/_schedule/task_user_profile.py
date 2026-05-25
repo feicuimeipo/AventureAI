@@ -1,8 +1,6 @@
-import os.path
-
-from celery import Celery
-
 from datetime import datetime
+
+from _schedule import task_partner_match
 from _schedule.celery_app import celery_app
 from advance_search.ai import embedding_generator
 from advance_search.vector import milvus_conn
@@ -44,7 +42,7 @@ def transform_user_profile_into_milvus(self,user_id=None):
                 targetProfile.city = userProfile.city
                 profiles.append(targetProfile)
 
-                celery_task_result = partner_match.partner_match_based_on_user_profile.apply_async(
+                celery_task_result = task_partner_match.partner_match_based_on_user_profile.apply_async(
                     args=[userProfile.user_id],
                     countdown=5,
                 )
