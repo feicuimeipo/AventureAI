@@ -13,12 +13,15 @@ from email.header import Header
 # 格式化文件内容
 from email.mime.multipart import MIMEMultipart
 
+
+from common.Logger import getLogger
+
 smtp_server = 'smtp.qq.com'
 smtp_port = 587  # 或者使用其他端口，例如465（SSL）
 sender = '7844153@qq.com'
 passwd = 'djljuwpghjkjbhci'  # 发送邮件的授权码
 
-
+logger = getLogger()
 # content = """
 # 您的验证码是: <h1 style='color:red'>{}</h1>
 # """.format(random.randint(10000, 99999))
@@ -43,7 +46,7 @@ def send_email(receiver, subject, content):
             server.quit()  # 关闭连接
         return True
     except smtplib.SMTPException as e:
-        print(f"邮件发送失败: {e}")
+        logger.info(f"邮件发送失败: {e}")
         return False
 
 

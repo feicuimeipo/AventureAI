@@ -3,7 +3,9 @@
 # pymysql.cursors.DictCursor：以字曲的方式
 import pymysql
 
+from common.Logger import getLogger
 
+logger = getLogger()
 class MyORM:
     table_name = ""
 
@@ -119,4 +121,4 @@ if __name__ == '__main__':
     user = User()
     # user.field(["sys_user_id", "username", "real_name"])
     re = user.field(["sys_user_id", "user_name", "real_name"]).query(sys_user_id="1633833655917559809")
-    print(re)
+    logger.info(re)

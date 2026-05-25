@@ -2,6 +2,8 @@
 from sqlalchemy import Table, create_engine, or_
 from sqlalchemy.orm import declarative_base, sessionmaker, scoped_session
 
+from common.Logger import getLogger
+
 DB_URL = 'mysql+pymysql://root:123654@47.99.219.51:3306/python_study'
 Base = declarative_base()
 engine = create_engine(DB_URL, echo=True)
@@ -10,7 +12,7 @@ session = sessionmaker(engine)
 # 用scoped_session - 保证线程安全
 db_session = scoped_session(session)
 
-
+logger = getLogger()
 class TestUser(Base):
     # 表结构的反射加载 - 自动从数据库加载字段
     __table__ = Table("platform_user", Base.metadata, autoload_with=engine)
@@ -32,7 +34,7 @@ def TestQuery():
     # 之前给参数赋值的运算符是=
     result = db_session.query(TestUser).filter_by(username='admin111').first()
 
-    print(result)
+    logger.info(result)
 
 
 def my_article():
@@ -42,7 +44,7 @@ def my_article():
         .filter(TestUser.username == username).all()
 
     for user, comment in comments:
-        print("用户：{}, 评论：{}".format(user.username, comment.comment))
+        logger.info("用户：{}, 评论：{}".format(user.username, comment.comment))
 
 
 # 只返回指定的字段，-- 封装在元组里，元组外面是list
@@ -54,8 +56,8 @@ def my_article1():
 
     # u - 用户名, c - content
     for user, u, c in comments:
-        print(user.username)
-        print("用户：{}, 评论：{}".format(u, c))
+        logger.info(user.username)
+        logger.info("用户：{}, 评论：{}".format(u, c))
 
 
 def my_favorite():
@@ -67,7 +69,7 @@ def my_favorite():
 
     # u - 用户名, c - content
     for u, t in list:
-        print("用户：{}, 评论：{}".format(u, t))
+        logger.info("用户：{}, 评论：{}".format(u, t))
 
 
 def my_favorite1():
@@ -77,7 +79,7 @@ def my_favorite1():
 
     # u - 用户名, c - content
     for u in list:
-        print("{}, ".format(u))
+        logger.info("{}, ".format(u))
 
 
 if __name__ == '__main__':

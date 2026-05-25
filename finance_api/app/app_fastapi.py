@@ -8,7 +8,7 @@ from fastapi.templating import Jinja2Templates
 from common.Logger import getLogger
 # 配置模板引擎（注意：directory 必须是字符串路径）
 jinja2_templates = Jinja2Templates(directory="../template")
-
+logger = getLogger()
 # 注册蓝图
 def init_router(app):
     pass
@@ -28,10 +28,10 @@ def create_schedule():
 """
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    print("启动前执行")
+    logger.info("启动前执行")
     create_schedule()
     yield
-    print("关闭后前执行")
+    logger.info("关闭后前执行")
 
 
 def create_fastapi_app():

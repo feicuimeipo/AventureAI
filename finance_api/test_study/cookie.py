@@ -4,8 +4,10 @@ import datetime
 import flask
 from flask import Flask, make_response
 
-app = Flask(__name__)
+from common.Logger import getLogger
 
+app = Flask(__name__)
+logger = getLogger()
 
 @app.route("/")
 def index():
@@ -35,7 +37,7 @@ def getCookie():
     cookies_dict = cookies.to_dict()
 
     for k, v in cookies_dict.items():
-        print("{} = {}".format(k, v))
+        logger.info("{} = {}".format(k, v))
     name = cookies_dict.get("name")
     return "name={}".format(name)
 

@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 import json
 import redis
+from fastapi import logger
+
 from app.config import EnvConfig
+from common.Logger import getLogger
 
 
 class RedisClient:
-
+    logger = getLogger()
     """
     Redis公共操作类，封装常用的Redis操作方法。
     """
@@ -33,9 +36,9 @@ class RedisClient:
         self.r = redis.Redis(connection_pool=self.pool)
         try:
             ping = self.r.ping()
-            print("Redis 连接成功！%s" % ping)
+            self.logger.info("Redis 连接成功！%s" % ping)
         except redis.ConnectionError as e:
-            print("Redis连接失败，请检查服务器是否启动",e)
+            self.logger.info("Redis连接失败，请检查服务器是否启动",e)
 
 
     def set(self, key, value, ex=None):

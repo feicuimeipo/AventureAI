@@ -1,12 +1,14 @@
 from pathlib import Path
 
+from fastapi import logger
 from mako.template import Template
 from sqlalchemy import create_engine, inspect
 
+from common.Logger import getLogger
 from database import db_conn
 
 ignored_fields = []
-
+logger = getLogger()
 def get_column_mapped_type(fieldType="",nullable=True):
     result = ""
     python_type = ""
@@ -54,7 +56,7 @@ def get_table_info_v2(db_url, table_name):
     :param table_name: 表名
     :return: 字段列表
     """
-    print("db_url="+db_url)
+    logger.info("db_url="+db_url)
     engine = create_engine(db_url)
     insp = inspect(engine)
     primary_keys = insp.get_pk_constraint(table_name)["constrained_columns"]
@@ -166,7 +168,7 @@ def generate_by_moke(db_url, tables=[], out_path="."):
 
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(rendered)
-        print(f"实体类已生成至 {output_file}")
+        logger.info(f"实体类已生成至 {output_file}")
 
 
 # -------------------------- 示例调用 --------------------------

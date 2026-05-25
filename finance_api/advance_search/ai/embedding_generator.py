@@ -34,10 +34,10 @@ def bulk_generate_user_embedding(documents:list[str]):
 
     # 4. 批量生成文档向量
     doc_vectors = embeddings.embed_documents(documents)
-    print(f"\n生成了 {len(doc_vectors)} 个文档向量")
+    logger.info(f"\n生成了 {len(doc_vectors)} 个文档向量")
 
     if len(doc_vectors)>0:
-        print(f"每个向量维度: {len(doc_vectors[0])}")
+        logger.info(f"每个向量维度: {len(doc_vectors[0])}")
 
     return doc_vectors
 

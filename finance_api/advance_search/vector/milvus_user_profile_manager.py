@@ -66,7 +66,7 @@ class UserProfileVector():
         :param collection_name: collection_name 表名
         """
         self.milvusClient.load_collection(collection_name=self.collection_name)
-        print("💾 集合已加载到内存")
+        logger.info("💾 集合已加载到内存")
 
 
     # 假设 collection 名为 'users'，包含 'user_id' 和 'embedding' 字段
