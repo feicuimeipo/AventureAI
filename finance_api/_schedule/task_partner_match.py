@@ -1,7 +1,10 @@
 import uuid
 from datetime import datetime
 from decimal import Decimal
+import os
+import sys
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from _schedule.celery_app import celery_app
 from advance_search.ai import embedding_generator
 from advance_search.ai.reason_generator import ReasonGenerator
@@ -14,6 +17,8 @@ from common.Redis import RedisClient
 from database.common import PlatformUserManager
 from database.dao import PlatformUserDao, PlatformDataSynchronizationDao, PlatformUserStatDao
 from database.entity.PlatformMatchResults import PlatformMatchResultModel
+
+
 
 logger = getLogger('--task_partner_match---')
 
