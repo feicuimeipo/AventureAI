@@ -49,7 +49,7 @@ export const getPlatformMenus = () => {
       },
       {
         name: '匹配搭子',
-        path: '/partner',
+        path: '/partner/discovery',
         icon: '🔍 ',
         key: 7,
         isHot: false,

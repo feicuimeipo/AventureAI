@@ -27,6 +27,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module_token.scss'
 import AppHeader from "@/components/AppHeader.vue";
 import LeftSidebarTokenView from "@/views/token/LeftSidebarTokenView.vue";

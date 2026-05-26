@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { defineProps, ref, withDefaults } from 'vue';
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 import SwitchLanguage from '@/components/BtnSwitchLanguage.vue';
 import { getHomeMenus, getHomeModuleStyle, type MenuItem } from '@/utils/menuUtils.ts';
 import { useI18n } from 'vue-i18n';
@@ -24,6 +25,11 @@ const menuList = ref<MenuItem[]>(getHomeMenus(t));
 const languageChangedEvent = () => {
   menuList.value = getHomeMenus(t);
 };
+
+const router = useRouter()
+const switchTo = (routePath:string) =>{
+  router.push(routePath)
+}
 </script>
 
 <template>
@@ -133,10 +139,10 @@ const languageChangedEvent = () => {
             <a href="{{ item.path }}">{{ item.name }}</a>
           </li>
           <li class="px-2 pt-1" style="height: 25px">
-            <a href="/partner">匹配搭子</a>
+            <a href="#" @click="switchTo('/partner/discovery')">匹配搭子</a>
           </li>
           <li class="px-2 pt-1" style="height: 25px">
-            <a href="/platform">控制台</a>
+            <a href="#" @clicn="switchTo('/platform/profile')">控制台</a>
           </li>
         </ul>
       </div>
@@ -252,4 +258,5 @@ nav {
   text-transform: uppercase;
   color: var(--gold);
 }
+
 </style>

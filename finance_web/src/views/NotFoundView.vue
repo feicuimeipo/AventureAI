@@ -2,16 +2,6 @@
 <script setup lang="ts">
 import ReturnHome from '@/components/BtnReturnHome.vue';
 import ReturnPrevious from '@/components/BtnReturnPrevious.vue';
-
-// const router = useRouter()
-
-// const goHome = () => {
-//   router.push('/')
-// }
-//
-// const goBack = () => {
-//   router.go(-1)
-// }
 </script>
 
 <template>
@@ -34,7 +24,6 @@ import ReturnPrevious from '@/components/BtnReturnPrevious.vue';
           <ReturnHome />
           <return-previous />
       </div>
-
 
     </div>
   </div>

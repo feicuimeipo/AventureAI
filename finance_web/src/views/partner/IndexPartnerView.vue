@@ -51,6 +51,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module_partner.scss';
 import AppHeader from '@/components/AppHeader.vue';
 import { getPartnerMenus, getPartnerStyleClass } from '@/utils/menuUtils.ts';
@@ -67,7 +68,6 @@ const myModelType = ref<string>('add');
 const needId = ref<string>();
 const onOpenModal = (type: string, item: NeedVO) => {
   if (type == 'edit') {
-    // console.log(JSON.stringify(item));
     if (item.id == '' || !item.id) {
       MessageBox.Error('需求编好不能为空');
     } else {

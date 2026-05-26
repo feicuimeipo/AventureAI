@@ -177,7 +177,7 @@
       <div class="ht-row">
         <div class="ht-desc">
           <div class="ht-desc-icon green" >✅</div>
-          <div><div class="ht-desc-text">每日签到</div><div class="ht-desc-sub">连续第48天 · +5</div></div>
+          <div><div class="ht-desc-text">每日签到</div><div class="ht-desc-sub">连续第48天·+5</div></div>
         </div>
         <div><div class="ht-type green" >签到</div></div>
         <div class="ht-amount earn">+5</div>
@@ -187,7 +187,7 @@
       <div class="ht-row">
         <div class="ht-desc">
           <div class="ht-desc-icon red">✏️</div>
-          <div><div class="ht-desc-text">AI重写BP第二节</div><div class="ht-desc-sub">智链SaaS · 模块三</div></div>
+          <div><div class="ht-desc-text">AI重写BP第二节</div><div class="ht-desc-sub">智链SaaS·模块三</div></div>
         </div>
         <div><div class="ht-type red" >消耗</div></div>
         <div class="ht-amount spend">-20</div>

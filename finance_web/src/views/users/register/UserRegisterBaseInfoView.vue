@@ -138,6 +138,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module-login-register.scss';
 import { useValidateUserRegister } from '@/hooks/useValidateUserRegister.ts';
 import BtnSendVerificationCode from '@/components/BtnSendVerificationCode.vue';
@@ -164,7 +165,6 @@ const sendVerificationCode = (callback: (arg0: boolean) => void) => {
   } else {
     sendAuthCodeByEmail(formData.phoneOrEmail)
       .then((res: any) => {
-        // console.log('json.code ===' + res.code);
 
         if (res.code === 0) {
           MessageBox.Success('验证码发送成功!');
@@ -194,7 +194,6 @@ const handleSubmit = () => {
   if (isValid) {
     doRegister(formData).then((res: any) => {
       if (res.code === 0) {
-        // MessageBox.Success("注册成功，请登录平台完善资料")
         sessionStorage.setItem('register_userId', res.data.userId);
         router.push({
           name: 'register_role',

@@ -27,11 +27,12 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module-user-state.scss';
-import { defineProps, onMounted, ref } from 'vue';
+import {  onMounted, ref } from 'vue';
 import BtnRegisterLogin from '@/components/BtnRegisterLogin.vue';
 import { useCurrentUserStore } from '@/stores/currentUser.ts';
-import { useRoute, useRouter } from 'vue-router';
+import {  useRouter } from 'vue-router';
 
 const props = withDefaults(
   defineProps<{
@@ -63,7 +64,7 @@ const getUserInfo = async () => {
     });
 };
 
-const route = useRoute();
+// const route = useRoute();
 onMounted(() => {
   currentUser.loginState().then(() => {
     isLoggedIn.value = currentUser.isLogin;

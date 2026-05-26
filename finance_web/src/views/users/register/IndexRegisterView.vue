@@ -17,6 +17,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module-login-register.scss';
 import TokenAdvInfo from '@/components/TokenAdvInfo.vue';
 import AppHeader from '@/components/AppHeader.vue';

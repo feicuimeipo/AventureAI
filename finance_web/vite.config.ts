@@ -7,19 +7,6 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 export default defineConfig(({ mode }) => {
   const env=loadEnv(mode,process.cwd())
 
-  // console.log('mode', mode)
-  // console.log('process.cwd()',process.cwd())
-  // console.log('env',env)
-
-  const proxy = {
-    '^/api/': {
-      target: env.VITE_APP_HOST,
-      changeOrigin: true,
-      ws: true,
-      rewrite: (path: any) => path.replace(/^\/api/, ''),
-    },
-  };
-
   return {
     // 打包相对路径
     base: './',
@@ -30,7 +17,14 @@ export default defineConfig(({ mode }) => {
         transformOn: true,
         mergeProps: true,
       }),
-    ]
+    ],
+    build: {
+      rollupOptions: {
+        output: {
+          sourcemap: true,
+        }
+      }
+    }
     ,
     resolve: {
       alias: {
@@ -47,15 +41,6 @@ export default defineConfig(({ mode }) => {
         },
       },
     },
-    devServer:{
-      host: true,
-      port: 3000,
-      cors: true,
-      open: false,
-      proxy: {
-        ...proxy
-      }
-    },
     server: {
       host: true,
       port: 3000,
@@ -66,7 +51,7 @@ export default defineConfig(({ mode }) => {
           target: env.VITE_APP_HOST,
           changeOrigin: true,
           ws: true,
-          rewrite: (path: any) => path.replace(/^\/api/, ''),
+          // rewrite: (path) => path.replace(/^\/api/, ''),
         },
       }
     },

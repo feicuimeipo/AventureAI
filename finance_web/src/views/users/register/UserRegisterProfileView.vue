@@ -96,9 +96,6 @@
         </div>
       </div>
       <div class="profile-fields">
-        <!--        <div class="profile-tag" style="background: var(&#45;&#45;gold-dim); color: var(&#45;&#45;gold)">-->
-        <!--          🚀 创业者专属信息-->
-        <!--        </div>-->
         <div class="field-row" v-if="formData.role == UserRoleEnum.FOUNDER">
           <div class="field-group">
             <div class="field-label">项目名称 <span class="req">*</span></div>
@@ -231,6 +228,7 @@ const getUserId = (): string => {
   const userId = sessionStorage.getItem('register_userId');
   return userId == null ? '' : userId;
 };
+
 const getRoleId = (): string => {
   const role = sessionStorage.getItem('register_role');
   return role == null ? '' : role;
@@ -239,10 +237,10 @@ const getRoleId = (): string => {
 const userTitles = ref(UserTitles);
 const cities = reactive(CitiesItems);
 const industryData = reactive(IndustryItems);
-const fundingStageData = reactive(FundingStageItems);
 const needTagsData = reactive(NeedTagsItems);
-const investmentTagsData = reactive(InvestmentTagsItems);
 const skillTagsData = reactive(SkillTagsItems);
+const investmentTagsData = reactive(InvestmentTagsItems);
+const fundingStageData = reactive(FundingStageItems);
 
 const initFormData: UserProfileBO = {
   userId: getUserId(),

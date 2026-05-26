@@ -16,7 +16,7 @@ let logQueue: BehaviorLog[] = [];
 
 // 上传配置
 const UPLOAD_INTERVAL = 30000; // 30秒上传一次
-const API_URL = import.meta.env.VITE_API_BASE_URL + '/user/currentUser/stat/behaviorLog';
+const API_URL = import.meta.env.VITE_APP_HOST + '/api/user/currentUser/stat/behaviorLog';
 
 // 发送数据函数
 export const sendLogs = async (isBeacon: boolean = false) => {

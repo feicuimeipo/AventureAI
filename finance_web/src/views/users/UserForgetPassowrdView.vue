@@ -115,6 +115,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module-login-register.scss';
 import { useRouter } from 'vue-router';
 import MessageBox from '@/utils/MessageBox.ts';

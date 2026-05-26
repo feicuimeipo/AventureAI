@@ -2,25 +2,25 @@ import httpRequest from '@/api/httpRequest.ts';
 import type { ForgetPasswordBO,  PasswordLoginBO } from '@/types/userBO.ts';
 
 export const doPasswordLogin = (params: PasswordLoginBO) => {
-  return httpRequest.post('/user/doLoginByPassword', params);
+  return httpRequest.post('/api/user/doLoginByPassword', params);
 };
 
 export const doLogout = () => {
-  return httpRequest.get('/user/doLogout', {});
+  return httpRequest.get('/api/user/doLogout', {});
 };
 
 export const doConfirmPhoneOrMail = (params: ForgetPasswordBO) => {
-  return httpRequest.get('/user/forgetPassword/doConfirmPhoneOrMail', params);
+  return httpRequest.get('/api/user/forgetPassword/doConfirmPhoneOrMail', params);
 };
 
 export const doResetPassword = (params: any) => {
-  return httpRequest.post('/user/forgetPassword/doResetPassword', params);
+  return httpRequest.post('/api/user/forgetPassword/doResetPassword', params);
 };
 
 export const sendForgetPasswordAuthCodeByEmail = (email: string) => {
-  return httpRequest.post('/user/forgetPassword/send_code_by_email', { email: email });
+  return httpRequest.post('/api/user/forgetPassword/send_code_by_email', { email: email });
 };
 
 export const sendForgetPasswordAuthCodeByPhone = (phone: string) => {
-  return httpRequest.post('/user/forgetPassword/send_code_by_phone', { phone: phone });
+  return httpRequest.post('/api/user/forgetPassword/send_code_by_phone', { phone: phone });
 };

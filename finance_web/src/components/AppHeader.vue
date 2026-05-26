@@ -117,7 +117,7 @@
                 :data-path="item.path"
                 @click="m_navigateTo"
               >
-                <a href="{{ item.path }}" style="color: var(--gold)">{{ item.name }}</a>
+                <a href="#" style="color: var(--gold)">{{ item.name }}</a>
               </li>
             </ul>
           </div>
@@ -128,13 +128,14 @@
 </template>
 
 <script setup lang="ts">
-import { defineEmits, defineProps, onMounted, ref, watch } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
-import SwitchLanguage from '@/components/BtnSwitchLanguage.vue';
-import UserStatePanel from '@/components/UserStatePanel.vue';
-import type { MenuItem } from '@/utils/menuUtils.ts';
+// @ts-ignore
 import '@/styles/module-header.scss';
+import {   onMounted, ref, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+import type { MenuItem } from '@/utils/menuUtils.ts';
 import BtnReturnHome from '@/components/BtnReturnHome.vue';
+import UserStatePanel from '@/components/UserStatePanel.vue';
+import SwitchLanguage from '@/components/BtnSwitchLanguage.vue';
 
 // 属性
 const props = withDefaults(
@@ -178,6 +179,7 @@ const router = useRouter();
 const route = useRoute();
 const displayLoginBtn = ref<boolean>(false);
 const displayRegisterBtn = ref<boolean>(false);
+
 watch(route, () => {
   if (route.path.startsWith('/register')) {
     displayLoginBtn.value = true;
@@ -187,11 +189,17 @@ watch(route, () => {
 });
 
 const openNewWindow = (path: string) => {
-  // 1. 解析路由对象，获取完整的 URL 路径
-  const routeData = router.resolve({
-    path: path, // 确保路由配置中有名为 'User' 的路由
-  });
-  window.open(routeData.href, '_blank');
+   // 1. 解析路由对象，获取完整的 URL 路径
+   // 2. 简单校验：确保是内部路径
+  const routeData = router.resolve({path});
+
+  const targetUrl = window.location.origin + routeData.href;
+
+  const newWindow = window.open(targetUrl , '_blank');
+
+  if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+    alert('弹出窗口被浏览器拦截，请允许本站弹窗以继续操作。');
+  }
 };
 
 const navigateTo = (e: any) => {
@@ -199,8 +207,8 @@ const navigateTo = (e: any) => {
   if (o.dataset.blanktarget && o.dataset.blanktarget.toString() == 'true') {
     openNewWindow(o.dataset.path);
   } else {
-    emit('switchTabEvent', o.dataset.path);
     router.push(o.dataset.path);
+    emit('switchTabEvent', o.dataset.path);
   }
 };
 
@@ -219,6 +227,7 @@ onMounted(() => {
     hiddenRightPart.value = true;
   }
 });
+
 </script>
 <style scoped lang="scss">
 .nav-logo {

@@ -20,7 +20,7 @@
   <!-- FEATURED -->
   <div
     class="article-featured"
-    onclick="openArticle(this)"
+    @click="openArticle"
     style="animation: fadeUp 0.3s ease 0.1s both"
   >
     <div class="af-body">
@@ -81,7 +81,7 @@
   <!-- REGULAR ARTICLES -->
   <div
     class="article-row"
-    onclick="openArticle(this)"
+    @click="openArticle"
     style="animation: fadeUp 0.3s ease 0.15s both"
   >
     <div>
@@ -108,7 +108,7 @@
 
   <div
     class="article-row"
-    onclick="openArticle(this)"
+    @click="openArticle"
     style="animation: fadeUp 0.3s ease 0.2s both"
   >
     <div>
@@ -134,7 +134,7 @@
 
   <div
     class="article-row"
-    onclick="openArticle(this)"
+    @click="openArticle"
     style="animation: fadeUp 0.3s ease 0.25s both"
   >
     <div>
@@ -211,6 +211,9 @@
 <script setup lang="ts">
 import '@/styles/module_newsfeed.scss';
 
+const openArticle = () =>{
+
+}
 </script>
 
 <style lang="scss"></style>

@@ -176,7 +176,7 @@
         <div style="font-size:16px;">🌱</div>
         <div style="flex:1;">
           <div style="font-size:11px;color:var(--text3);">LV.1 新芽</div>
-          <div style="font-size:10px;color:var(--text3);font-family:'DM Mono',monospace;">0 – 499T</div>
+          <div style="font-size:10px;color:var(--text3);">0 – 499T</div>
         </div>
         <div style="font-size:10px;color:var(--green);">✓ 已解锁</div>
       </div>
@@ -221,15 +221,17 @@ import {showBootStrapToast} from "@/views/token/ToastForToken.tsx";
 function setShopTab(id:string) {
   const tabEl = document.getElementById("tablabel_"+id);
   document.querySelectorAll('.shop-tab').forEach(t => t.classList.remove('on'));
-  tabEl.classList.add('on');
-  ['service','privilege','cash'].forEach(t => {
-    const el = document.getElementById('tab-' + t);
-    if (el) el.style.display = t === id ? 'block' : 'none';
-  });
+  if (tabEl) {
+    tabEl.classList.add('on');
+    ['service', 'privilege', 'cash'].forEach(t => {
+      const el = document.getElementById('tab-' + t);
+      if (el) el.style.display = t === id ? 'block' : 'none';
+    });
+  }
 }
 
 // Spend token
-function spendToken(btn, cost, name) {
+function spendToken(btn:any, cost:any, name:any) {
   // if (balance < cost) {
   //   showBootStrapToast('❌','Token不足',`需要 ${cost}T，当前 ${balance}T`,false);
   //   openBuyDialog();

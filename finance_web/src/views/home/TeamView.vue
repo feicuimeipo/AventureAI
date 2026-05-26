@@ -78,7 +78,7 @@
 
 </template>
 
-<script setup name="TeamView" lang="ts">
+<script setup lang="ts">
 
 </script>
 

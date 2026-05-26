@@ -1,7 +1,4 @@
 <template>
-<!--  <div class="progress-bar">-->
-<!--    <div class="progress-fill" id="progressFill" style="width: 100%"></div>-->
-<!--  </div>-->
   <div class="section-panel" id="step3">
     <div class="success-panel">
       <div class="success-icon">🎉</div>

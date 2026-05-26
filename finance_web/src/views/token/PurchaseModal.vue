@@ -33,14 +33,11 @@
 </template>
 
 <script setup lang="ts">
-import {defineEmits} from "vue";
 import {showBootStrapToast} from "@/views/token/ToastForToken.tsx";
-
 const emit = defineEmits(['saveDataSuccess','closeBuyDialog','updateDisplay','updateBalance'])
 
-
 let selectedPlan = { tokens: 500 };
-function selectPlan(el, tokens) {
+function selectPlan(el:any, tokens:any) {
   document.querySelectorAll('.bm-plan').forEach(p => p.classList.remove('on'));
   el.classList.add('on');
   selectedPlan = { tokens };

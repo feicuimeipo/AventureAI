@@ -94,6 +94,7 @@
 </template>
 
 <script setup lang="ts">
+// @ts-ignore
 import '@/styles/module-login-register.scss';
 import { useRouter } from 'vue-router';
 import { computed, ref } from 'vue';
