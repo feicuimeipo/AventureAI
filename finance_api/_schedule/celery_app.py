@@ -6,12 +6,11 @@ import os
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-
 from app.config import EnvConfig
 from common.Logger import getLogger
 
 logger = getLogger()
+
 # 获取当前机器的IP地址
 def get_local_ip():
     try:
@@ -21,7 +20,7 @@ def get_local_ip():
         ip = s.getsockname()[0]
         s.close()
         return ip
-    except Exception:
+    except Exception as e:
         # 失败则返回127.0.0.1
         return "127.0.0.1"
 

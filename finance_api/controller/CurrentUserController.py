@@ -104,33 +104,37 @@ def refreshUseActive():
     return ResponseDTO().ok().toJson()
 
 
-@currentUser.post("/currentUser/stat/behaviorLog")
+@currentUser.route("/currentUser/stat/behaviorLog", methods=['GET', 'POST'])
 def updateUserLastActivity():
-    datas = request.get_json()
-    for data in datas:
-        try:
-            authToken = data["authToken"]
-            userId = AuthToken.getUserIdFromToken(authToken)
-            if userId:
-                duration = data["duration"]
-                timestamp = data["lastActiveTime"]
-                duration = min((duration / 1000), 60) if duration else 0
-                UserStatManager.calculate_activity_duration(userId,int(duration))
-                UserStatManager.calculate_last_activity_time(userId,timestamp)
-                UserStatManager.calculate_user_browse_count(userId)
-                UserStatManager.calculate_daily_login_count(userId)
-                userDao.updateLastActiveDatetime(userId)
+    if request.method == 'POST':
+        datas = request.get_json()
+        for data in datas:
+            try:
+                authToken = data["authToken"]
+                userId = AuthToken.getUserIdFromToken(authToken)
+                if userId:
+                    duration = data["duration"]
+                    timestamp = data["lastActiveTime"]
+                    duration = min((duration / 1000), 60) if duration else 0
+                    UserStatManager.calculate_activity_duration(userId,int(duration))
+                    UserStatManager.calculate_last_activity_time(userId,timestamp)
+                    UserStatManager.calculate_user_browse_count(userId)
+                    UserStatManager.calculate_daily_login_count(userId)
+                    userDao.updateLastActiveDatetime(userId)
 
-                # 发送定时任务
-                celery_task_result = record_user_stat.apply_async(
-                    args=[],
-                    countdown=5  # 倒计时 10 秒后执行
-                )
-                PlatformCeleryTaskLogDao.insertCeleryLog(celery_task_result.id, 'record_user_stat', 'start_up')
+                    # 发送定时任务
+                    celery_task_result = record_user_stat.apply_async(
+                        args=[],
+                        countdown=5  # 倒计时 10 秒后执行
+                    )
+                    PlatformCeleryTaskLogDao.insertCeleryLog(celery_task_result.id, 'record_user_stat', 'start_up')
 
-        except Exception as e:
-            logger.error(e,exc_info=True)
-    return ResponseDTO().ok().toJson()
+            except Exception as e:
+                logger.error(e,exc_info=True)
+        return ResponseDTO().ok().toJson()
+    else:
+        args = request.args
+        return jsonify({"message": "Received GET request", "params": args})
 
 @currentUser.post("/currentUser/stat/message_count")
 def updateUserBrowseCount():
